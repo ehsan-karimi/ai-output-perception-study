@@ -1,9 +1,9 @@
 # local test answers, never published
 responses_local.csv
 responses*.csv
-# Google credentials
+responses*.jsonl
+# app secrets (e.g. institution)
 .streamlit/secrets.toml
-*.json.key
 # Python cache
 __pycache__/
 # editor settings

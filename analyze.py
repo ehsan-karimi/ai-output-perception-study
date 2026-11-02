@@ -1,8 +1,8 @@
 """Compare the participants' answers with a reference answer key, per modality and per model.
 
-    python analyze.py --responses responses.csv --key private/answer_key.json [--exclude-participants id1 id2]
+    python analyze.py --responses responses.jsonl --key private/answer_key.json [--exclude-participants id1 id2]
 
---responses: the answers (Google Sheet exported as CSV, or responses_local.csv); columns as app.py FIELDS.
+--responses: the answers, responses.jsonl written by app.py (a CSV with the same columns also works).
 --key: per item the reference majority class and intensities (not distributed with the study).
 
 Per item the human intensity is the mean of the 0-10 answers / 10 ("No bias" counts 0, "Cannot tell" is left out).
@@ -52,7 +52,12 @@ def main() -> int:
     a = ap.parse_args()
     key = json.loads(Path(a.key).read_text())
     items = {i["id"]: {**i, **key["items"][i["id"]]} for i in json.loads(Path(a.items).read_text())}
-    rows = [r for r in csv.DictReader(open(a.responses)) if r["participant"] not in set(a.exclude_participants)]
+    if a.responses.endswith(".jsonl"):
+        raw = [json.loads(line) for line in open(a.responses) if line.strip()]
+    else:
+        raw = list(csv.DictReader(open(a.responses)))
+    rows = [{k: ("" if v is None else str(v)) for k, v in r.items()} for r in raw
+            if r["participant"] not in set(a.exclude_participants)]
     by_item = defaultdict(list)
     for r in rows:
         by_item[r["item_id"]].append(r)

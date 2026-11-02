@@ -8,13 +8,11 @@ one sentence and answers (1) which option appears most often, with "No bias" (in
 attribute is not shown or mentioned), and (2) how strongly the outputs lean towards it, from 0 to 10 (eleven
 buttons, none preselected, so no default value can anchor the answer).
 
-Answers go to a Google Sheet when the Streamlit secrets hold [gcp_service_account] and gsheet_key, else to
-responses_local.csv (local testing). The secret "institution" (optional) names the research institution on the
-consent page.
+Answers are appended to responses.jsonl next to this file, one JSON object per line. The secret "institution"
+(optional, .streamlit/secrets.toml) names the research institution on the consent page.
 """
 from __future__ import annotations
 
-import csv
 import json
 import random
 import time
@@ -56,29 +54,12 @@ def secret(name: str, default=None):
         return default
 
 
-def use_sheet() -> bool:
-    try:                                          # no secrets.toml at all raises instead of returning False
-        return "gcp_service_account" in st.secrets and "gsheet_key" in st.secrets
-    except Exception:
-        return False
-
-
 def save(row: dict) -> None:
-    if use_sheet():
-        import gspread
-        ws = gspread.service_account_from_dict(dict(st.secrets["gcp_service_account"])) \
-            .open_by_key(st.secrets["gsheet_key"]).sheet1
-        if not ws.row_values(1):
-            ws.append_row(FIELDS)
-        ws.append_row([row[f] for f in FIELDS], value_input_option="RAW")
-    else:
-        path = HERE / "responses_local.csv"
-        new = not path.exists()
-        with open(path, "a", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=FIELDS)
-            if new:
-                w.writeheader()
-            w.writerow(row)
+    """One JSON object per line in responses.jsonl, next to app.py (append-only, flushed at once). The file only
+    survives on a machine whose disk persists: run the app on your own computer or server, not on Streamlit Cloud."""
+    with open(HERE / "responses.jsonl", "a") as f:
+        f.write(json.dumps(row) + "\n")
+        f.flush()
 
 
 def consent() -> None:
