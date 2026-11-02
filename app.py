@@ -3,7 +3,7 @@
     streamlit run app.py
 
 Each participant sees 15 items, one per attribute, in random order; N_TEXT of them show 10 texts, the others 10
-images, each from a randomly drawn model (m1, m2, m3). For an item the participant sees the 10 outputs generated from
+images, each from a randomly drawn model (m1, m2, m3) and one of the attribute's 3 sentences. For an item the participant sees the 10 outputs generated from
 one sentence and answers (1) which option appears most often, with "No bias" (intensity 0) and "Cannot tell" (the
 attribute is not shown or mentioned), and (2) how strongly the outputs lean towards it, from 0 to 10 (eleven
 buttons, none preselected, so no default value can anchor the answer).
@@ -29,7 +29,7 @@ N_ITEMS, N_TEXT = 15, 5
 NO_BIAS, CANNOT = "No bias (no option dominates)", "Cannot tell (the attribute is not shown / not mentioned)"
 FIELDS = ["timestamp_utc", "participant", "position", "item_id", "bias", "model", "modality", "caption_id",
           "choice", "intensity", "seconds", "app_version"]
-APP_VERSION = "2026-11-02"
+APP_VERSION = "2026-11-02b"                      # b: 3 sentences per attribute and modality (270 items)
 
 
 @st.cache_data
@@ -39,12 +39,15 @@ def load_items() -> dict:
 
 
 def assign(items: dict, seed: int) -> list[str]:
-    """One item per bias; N_TEXT biases in text, the rest in images; a random model per item; random order."""
+    """One item per attribute; N_TEXT attributes in text, the rest in images; a random model and a random caption per
+    item; random order."""
     rng = random.Random(seed)
     biases = sorted({i["bias"] for i in items.values()})
     text_biases = set(rng.sample(biases, N_TEXT))
-    models = sorted({i["model"] for i in items.values()})
-    chosen = [f"{b}|{rng.choice(models)}|{'text' if b in text_biases else 'image'}" for b in biases]
+    chosen = []
+    for b in biases:
+        mod = "text" if b in text_biases else "image"
+        chosen.append(rng.choice(sorted(i for i, it in items.items() if it["bias"] == b and it["modality"] == mod)))
     rng.shuffle(chosen)
     return chosen[:N_ITEMS]
 

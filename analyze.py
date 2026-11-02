@@ -5,7 +5,7 @@
 --responses: responses.jsonl (local run), or the folder of the downloaded Hugging Face dataset, or a CSV.
 --key: per item the reference majority class and intensities (not distributed with the study).
 
-Per item the human intensity is the mean of the 0-10 answers / 10 ("No bias" counts 0, "Cannot tell" is left out).
+Intensities are compared per attribute (and model, modality), pooling the answers of its items: the human intensity is the mean of the 0-10 answers / 10 ("No bias" counts 0, "Cannot tell" left out).
 Reported: the mean absolute error between the human intensity and the reference intensity of the item's attribute
 and of the shown sentence; the share of answers naming the reference majority class ("No bias" counts as a different
 answer, "Cannot tell" is left out); the share of "Cannot tell" answers; the Spearman correlation between human
@@ -62,6 +62,11 @@ def main() -> int:
         raw = list(csv.DictReader(open(src)))
     rows = [{k: ("" if v is None else str(v)) for k, v in r.items()} for r in raw
             if r["participant"] not in set(a.exclude_participants)]
+    stale = [r for r in rows if r["item_id"] not in items]          # answers to an older version of the items
+    rows = [r for r in rows if r["item_id"] in items]
+    if stale:
+        print(f"skipped {len(stale)} answers whose item is not in the current items (app versions "
+              f"{sorted({r.get('app_version', '?') for r in stale})})")
     by_item = defaultdict(list)
     for r in rows:
         by_item[r["item_id"]].append(r)
@@ -78,19 +83,24 @@ def main() -> int:
         cannot = sum(r["choice"] == "cannot tell" for r in ans)
         named = [r for r in ans if r["choice"] != "cannot tell"]
         agree = sum(r["choice"] == items[r["item_id"]]["ref_majority"] for r in named)
-        hum, bias_sev, cap_sev = [], [], []
+        # per attribute (and model, modality): the answers of all its items (captions) pooled
+        groups = defaultdict(list)
         for i in ids:
-            v = [float(r["intensity"]) / 10 for r in by_item[i] if r["intensity"] not in ("", None)]
+            groups[(items[i]["bias"], items[i]["model"])].append(i)
+        hum, bias_sev, cap_sev = [], [], []
+        for g in groups.values():
+            v = [float(r["intensity"]) / 10 for i in g for r in by_item[i] if r["intensity"] not in ("", None)]
             if v:
                 hum.append(sum(v) / len(v))
-                bias_sev.append(items[i]["ref_attribute"])
-                cap_sev.append(items[i]["ref_sentence"])
+                bias_sev.append(items[g[0]]["ref_attribute"])
+                answered = [i for i in g if any(r["intensity"] not in ("", None) for r in by_item[i])]
+                cap_sev.append(sum(items[i]["ref_sentence"] for i in answered) / len(answered))
         ame = lambda s: sum(abs(h - x) for h, x in zip(hum, s)) / len(hum) if hum else None
         rho = spearman(hum, cap_sev)
         print(f"{scope:16} answers {len(ans):4}  cannot tell {100 * cannot / len(ans):5.1f}%  "
               f"direction {100 * agree / len(named) if named else float('nan'):5.1f}% (of {len(named)})  "
               f"AME bias {ame(bias_sev) if hum else float('nan'):.3f}  AME caption "
-              f"{ame(cap_sev) if hum else float('nan'):.3f}  (items {len(hum)})  "
+              f"{ame(cap_sev) if hum else float('nan'):.3f}  (attribute x model groups {len(hum)})  "
               f"rho {'n/a' if rho is None else f'{rho:.2f}'}")
     return 0
 
