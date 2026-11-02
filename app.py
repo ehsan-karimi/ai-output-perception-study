@@ -33,9 +33,16 @@ APP_VERSION = "2026-11-02b"                      # b: 3 sentences per attribute 
 
 
 @st.cache_data
-def load_items() -> dict:
+def _load_items(stamp: tuple) -> dict:
     items = json.loads((HERE / "data/items.json").read_text())
     return {i["id"]: i for i in items}
+
+
+def load_items() -> dict:
+    """Cached per version of items.json (size and modification time), so a redeploy with new items is never served
+    from the old cache."""
+    st_ = (HERE / "data/items.json").stat()
+    return _load_items((st_.st_size, st_.st_mtime_ns))
 
 
 def assign(items: dict, seed: int) -> list[str]:
@@ -162,6 +169,8 @@ def show_item(item: dict, pos: int) -> None:
 
 def main() -> None:
     st.set_page_config(page_title="AI outputs study", layout="wide")
+    if "order" in st.session_state and not all(i in load_items() for i in st.session_state.order):
+        st.session_state.clear()                  # the items changed under an open session: start that visitor over
     if "pid" not in st.session_state:
         st.session_state.pid = uuid.uuid4().hex[:12]
         st.session_state.order = assign(load_items(), seed=int(st.session_state.pid, 16))
