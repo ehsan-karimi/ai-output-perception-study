@@ -10,3 +10,5 @@ __pycache__/
 .idea/
 # reference answers and the build script: not distributed
 private/
+# answers waiting for upload to Hugging Face
+hf_upload/

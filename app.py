@@ -8,8 +8,10 @@ one sentence and answers (1) which option appears most often, with "No bias" (in
 attribute is not shown or mentioned), and (2) how strongly the outputs lean towards it, from 0 to 10 (eleven
 buttons, none preselected, so no default value can anchor the answer).
 
-Answers are appended to responses.jsonl next to this file, one JSON object per line. The secret "institution"
-(optional, .streamlit/secrets.toml) names the research institution on the consent page.
+Answers are appended as JSON lines. Online (secrets hf_token and hf_dataset set): to hf_upload/responses-<run>.jsonl,
+which huggingface_hub's CommitScheduler uploads every minute (and once more when the app stops) to the private
+dataset hf_dataset, created if needed. Locally (no secrets): to responses.jsonl next to this file. The secret
+"institution" (optional) names the research institution on the consent page.
 """
 from __future__ import annotations
 
@@ -54,12 +56,31 @@ def secret(name: str, default=None):
         return default
 
 
+@st.cache_resource
+def uploader():
+    """(CommitScheduler, file) when the Hugging Face secrets are set, else None. One file per app process, so two
+    processes never write the same file."""
+    token, repo = secret("hf_token"), secret("hf_dataset")
+    if not (token and repo):
+        return None
+    from huggingface_hub import CommitScheduler
+    folder = HERE / "hf_upload"
+    folder.mkdir(exist_ok=True)
+    sched = CommitScheduler(repo_id=repo, repo_type="dataset", folder_path=folder, path_in_repo="responses",
+                            every=1, private=True, token=token)
+    return sched, folder / f"responses-{uuid.uuid4().hex[:12]}.jsonl"
+
+
 def save(row: dict) -> None:
-    """One JSON object per line in responses.jsonl, next to app.py (append-only, flushed at once). The file only
-    survives on a machine whose disk persists: run the app on your own computer or server, not on Streamlit Cloud."""
-    with open(HERE / "responses.jsonl", "a") as f:
-        f.write(json.dumps(row) + "\n")
-        f.flush()
+    up = uploader()
+    if up is None:                                # local run: a plain file next to app.py
+        with open(HERE / "responses.jsonl", "a") as f:
+            f.write(json.dumps(row) + "\n")
+        return
+    sched, path = up
+    with sched.lock:                              # no upload while the line is being written
+        with open(path, "a") as f:
+            f.write(json.dumps(row) + "\n")
 
 
 def consent() -> None:

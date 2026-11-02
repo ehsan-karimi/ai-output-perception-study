@@ -2,7 +2,7 @@
 
     python analyze.py --responses responses.jsonl --key private/answer_key.json [--exclude-participants id1 id2]
 
---responses: the answers, responses.jsonl written by app.py (a CSV with the same columns also works).
+--responses: responses.jsonl (local run), or the folder of the downloaded Hugging Face dataset, or a CSV.
 --key: per item the reference majority class and intensities (not distributed with the study).
 
 Per item the human intensity is the mean of the 0-10 answers / 10 ("No bias" counts 0, "Cannot tell" is left out).
@@ -52,10 +52,14 @@ def main() -> int:
     a = ap.parse_args()
     key = json.loads(Path(a.key).read_text())
     items = {i["id"]: {**i, **key["items"][i["id"]]} for i in json.loads(Path(a.items).read_text())}
-    if a.responses.endswith(".jsonl"):
-        raw = [json.loads(line) for line in open(a.responses) if line.strip()]
+    src = Path(a.responses)
+    if src.is_dir():                              # the downloaded Hugging Face dataset: every responses-*.jsonl in it
+        files = sorted(src.rglob("*.jsonl"))
+        raw = [json.loads(line) for f in files for line in open(f) if line.strip()]
+    elif src.suffix == ".jsonl":
+        raw = [json.loads(line) for line in open(src) if line.strip()]
     else:
-        raw = list(csv.DictReader(open(a.responses)))
+        raw = list(csv.DictReader(open(src)))
     rows = [{k: ("" if v is None else str(v)) for k, v in r.items()} for r in raw
             if r["participant"] not in set(a.exclude_participants)]
     by_item = defaultdict(list)
