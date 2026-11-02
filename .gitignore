@@ -1,0 +1,12 @@
+# local test answers, never published
+responses_local.csv
+responses*.csv
+# Google credentials
+.streamlit/secrets.toml
+*.json.key
+# Python cache
+__pycache__/
+# editor settings
+.idea/
+# reference answers and the build script: not distributed
+private/
