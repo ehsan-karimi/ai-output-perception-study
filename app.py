@@ -2,21 +2,25 @@
 
     streamlit run app.py
 
-Each participant sees 15 items, one per attribute, in random order; N_TEXT of them show 10 texts, the others 10
-images, each from a randomly drawn model (m1, m2, m3) and one of the attribute's 3 sentences. For an item the participant sees the 10 outputs generated from
-one sentence and answers (1) which option appears most often, with "No bias" (intensity 0) and "Cannot tell" (the
-attribute is not shown or mentioned), and (2) how strongly the outputs lean towards it, from 0 to 10 (eleven
-buttons, none preselected, so no default value can anchor the answer).
+Each participant belongs to one of two groups (g1, g2), drawn from the participant's numerical ID, and answers only
+that group's items: 6 tasks, one per attribute, in random order; N_TEXT of them show 10 texts, the others 10 images,
+each from one of the attribute's 3 sentences in that group. For a task the participant sees the 10 outputs generated
+from one sentence, the attribute and its question, and answers (1) which value appears most often, with the special
+options "No bias", "Offlist" (the value is not in the list) and "Not_visible" (not shown or not mentioned), and
+(2) how strongly the outputs favor the dominant value, from 0 to 10 (eleven buttons, none preselected, so no default
+value can anchor the answer). Both questions are always required. In the texts, the sentences that mention the
+attribute are highlighted (spans in items.json, "marks").
 
 Answers are appended as JSON lines. Online (secrets hf_token and hf_dataset set): to hf_upload/responses-<run>.jsonl,
 which huggingface_hub's CommitScheduler uploads every minute (and once more when the app stops) to the private
-dataset hf_dataset, created if needed. Locally (no secrets): to responses.jsonl next to this file. The secret
-"institution" (optional) names the research institution on the consent page.
+dataset hf_dataset, created if needed. Locally (no secrets): to responses.jsonl next to this file.
 """
 from __future__ import annotations
 
+import html
 import json
 import random
+import secrets
 import time
 import uuid
 from datetime import datetime, timezone
@@ -25,11 +29,12 @@ from pathlib import Path
 import streamlit as st
 
 HERE = Path(__file__).resolve().parent
-N_ITEMS, N_TEXT = 15, 5
-NO_BIAS, CANNOT = "No bias (no option dominates)", "Cannot tell (the attribute is not shown / not mentioned)"
-FIELDS = ["timestamp_utc", "participant", "position", "item_id", "bias", "model", "modality", "caption_id",
+N_ITEMS, N_TEXT = 6, 3
+WORD = {6: "six"}
+SPECIAL = ["No bias", "Offlist", "Not_visible"]   # saved as "no bias", "offlist", "not_visible"
+FIELDS = ["timestamp_utc", "participant", "group", "position", "item_id", "bias", "modality", "caption_id",
           "choice", "intensity", "seconds", "app_version"]
-APP_VERSION = "2026-11-02b"                      # b: 3 sentences per attribute and modality (270 items)
+APP_VERSION = "2026-11-07a"                      # two groups of participants, 6 tasks, one model (72 items)
 
 
 @st.cache_data
@@ -46,15 +51,17 @@ def load_items() -> dict:
 
 
 def assign(items: dict, seed: int) -> list[str]:
-    """One item per attribute; N_TEXT attributes in text, the rest in images; a random model and a random caption per
-    item; random order."""
+    """One group for the participant; in it one item per attribute, N_TEXT attributes in text and the rest in images,
+    a random sentence per item, random order."""
     rng = random.Random(seed)
-    biases = sorted({i["bias"] for i in items.values()})
+    group = rng.choice(sorted({i["group"] for i in items.values()}))
+    mine = {i: it for i, it in items.items() if it["group"] == group}
+    biases = sorted({i["bias"] for i in mine.values()})
     text_biases = set(rng.sample(biases, N_TEXT))
     chosen = []
     for b in biases:
         mod = "text" if b in text_biases else "image"
-        chosen.append(rng.choice(sorted(i for i, it in items.items() if it["bias"] == b and it["modality"] == mod)))
+        chosen.append(rng.choice(sorted(i for i, it in mine.items() if it["bias"] == b and it["modality"] == mod)))
     rng.shuffle(chosen)
     return chosen[:N_ITEMS]
 
@@ -96,14 +103,13 @@ def save(row: dict) -> None:
 def consent() -> None:
     st.title("How do AI models depict and describe the world?")
     st.markdown(
-        f"This study is part of academic research{' at ' + secret('institution') if secret('institution') else ''} "
-        "on how AI models that generate both images and texts depict people, objects and scenes.\n\n"
-        f"You will see **{N_ITEMS} tasks**. In each task you see **10 images or 10 "
-        "texts that an AI model generated from the same sentence**, and you answer two questions about them.\n\n"
-        "- Participation is voluntary and anonymous: we store only your answers, a random ID and timestamps.\n"
-        "- You can stop at any time by closing the page.\n"
-        "- The answers are used only for scientific research.")
-    if st.checkbox("I am at least 18 years old and I agree to take part in this study."):
+        "This study examines how AI models generate images and texts.\n\n"
+        f"You will complete {N_ITEMS} tasks. Each task presents 10 images or 10 texts generated by an AI model from "
+        "the same sentence, followed by two questions about them.\n\n"
+        "- Participation is voluntary and anonymous. We store only your answers, a numerical ID and timestamps.\n"
+        "- You may stop at any time by closing the page. However, please try to complete all "
+        f"{WORD.get(N_ITEMS, N_ITEMS)} tasks, as we can only evaluate completed responses.")
+    if st.checkbox("I am at least 18 years old and agree to participate in this study."):
         if st.button("Start", type="primary"):
             st.session_state.stage = "intro"
             st.rerun()
@@ -112,56 +118,72 @@ def consent() -> None:
 def intro() -> None:
     st.header("How to answer")
     st.markdown(
-        "Each task names one **attribute** (for example *gender*, *grass color* or *lighting*) and shows 10 outputs "
-        "generated from the same sentence.\n\n"
-        "1. **Which option appears most often** across the 10 outputs? Choose *No bias* if no option clearly "
-        "dominates, and *Cannot tell* if the outputs do not show (images) or do not mention (texts) the attribute.\n"
-        "2. **How strongly** do the 10 outputs lean towards that option, from **0** (spread evenly, no bias) to "
-        "**10** (all 10 the same).\n\n"
-        "There are no right or wrong answers: we want your own judgement.")
-    if st.button("Begin", type="primary"):
+        "Each task focuses on one attribute (for example, gender, grass color or lighting). Examine this attribute "
+        "across the 10 images or texts, then answer two questions.\n\n"
+        "1. Which value appears most often? Select the most common value from the list of values, or choose one of "
+        "these special options:\n"
+        "    - No bias: no value clearly dominates.\n"
+        "    - Offlist: the value observed in most outputs is missing from the list. For example, the images show "
+        "snowy weather, but snow is not among the options.\n"
+        "    - Not_visible: the attribute cannot be determined in most outputs because it is not visible in the "
+        "images or mentioned in the texts. For example, the attribute is weather, but the images show an indoor "
+        "scene with no indication of the weather outside.\n"
+        "2. How strongly do the outputs favor the dominant value? Rate this from 0 (values are evenly distributed, "
+        "with no bias) to 10 (all 10 outputs have the same value).")
+    if st.button("Begin the study", type="primary"):
         st.session_state.stage, st.session_state.t0 = "items", time.time()
         st.rerun()
+
+
+MARK = ('<mark style="background-color: rgba(255, 196, 0, 0.38); color: inherit; padding: 0 2px; '
+        'border-radius: 3px">{}</mark>')
+
+
+def highlight(text: str, spans: list) -> str:
+    """The text, HTML-escaped (so nothing in it is read as markup), with the given character spans highlighted."""
+    out, i = [], 0
+    for a, b in spans:
+        out += [html.escape(text[i:a]), MARK.format(html.escape(text[a:b]))]
+        i = b
+    return "".join(out + [html.escape(text[i:])])
 
 
 def show_item(item: dict, pos: int) -> None:
     st.progress(pos / N_ITEMS, text=f"Task {pos + 1} of {N_ITEMS}")
     noun = "images" if item["modality"] == "image" else "texts"
     st.markdown(f"These 10 {noun} were generated from the sentence:  \n> *{item['caption'].strip()}*")
-    subject = f" of {item['refer_to']}" if item["refer_to"] else ""
-    st.subheader(f"Attribute: {item['bias']}{subject}")
+    st.subheader(f"Attribute: {item['bias']}")
+    st.markdown(f"**Question:** {item['question']}")
     if item["modality"] == "image":
         for row in range(2):
             cols = st.columns(5)
             for k in range(5):
                 cols[k].image(str(HERE / "data" / item["outputs"][row * 5 + k]), width="stretch")
     else:
+        st.caption("The highlighted sentences mention the attribute, so you do not need to read the whole texts.")
         for k, t in enumerate(item["outputs"], 1):
             with st.container(border=True):
-                st.markdown(f"**Text {k}**  \n{t}")
+                st.markdown(f"**Text {k}**  \n{highlight(t, item.get('marks', [[]] * 10)[k - 1])}",
+                            unsafe_allow_html=True)
     # not clear_on_submit: a rejected submit (a question unanswered) must keep the other answer; every task has its
     # own form and widget keys, so the next task starts empty anyway
     with st.form(f"form_{pos}"):
-        choice = st.radio(f"1. Which option appears most often across the 10 {noun}?",
-                          [c.capitalize() for c in item["classes"]] + [NO_BIAS, CANNOT], index=None,
-                          key=f"choice_{pos}")
-        intensity = st.radio(f"2. How strongly do the 10 {noun} lean towards that option? "
-                             "(0 = evenly spread / no bias, 10 = all the same; skip it if you chose No bias or "
-                             "Cannot tell)", list(range(11)), index=None, horizontal=True,
-                             key=f"intensity_{pos}")
+        choice = st.radio(f"1. Which value appears most often across the 10 {noun}?",
+                          [c.capitalize() for c in item["classes"]] + SPECIAL, index=None, key=f"choice_{pos}")
+        intensity = st.radio("2. How strongly do the outputs favor the dominant value? Rate this from 0 (values are "
+                             "evenly distributed, with no bias) to 10 (all 10 outputs have the same value).",
+                             list(range(11)), index=None, horizontal=True, key=f"intensity_{pos}")
         if st.form_submit_button("Next", type="primary"):
             if choice is None:
-                st.warning("Please choose an option for question 1.")
+                st.warning("Please choose a value for question 1.")
                 return
-            if intensity is None and choice not in (NO_BIAS, CANNOT):
+            if intensity is None:
                 st.warning("Please choose a value for question 2.")
                 return
             save({"timestamp_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                  "participant": st.session_state.pid, "position": pos + 1, "item_id": item["id"],
-                  "bias": item["bias"], "model": item["model"], "modality": item["modality"],
-                  "caption_id": item["caption_id"], "choice": choice.lower() if choice not in (NO_BIAS, CANNOT)
-                  else ("no bias" if choice == NO_BIAS else "cannot tell"),
-                  "intensity": "" if choice == CANNOT else (0 if choice == NO_BIAS else intensity),
+                  "participant": st.session_state.pid, "group": item["group"], "position": pos + 1,
+                  "item_id": item["id"], "bias": item["bias"], "modality": item["modality"],
+                  "caption_id": item["caption_id"], "choice": choice.lower(), "intensity": intensity,
                   "seconds": round(time.time() - st.session_state.t0, 1), "app_version": APP_VERSION})
             st.session_state.pos, st.session_state.t0 = pos + 1, time.time()
             st.rerun()
@@ -172,8 +194,8 @@ def main() -> None:
     if "order" in st.session_state and not all(i in load_items() for i in st.session_state.order):
         st.session_state.clear()                  # the items changed under an open session: start that visitor over
     if "pid" not in st.session_state:
-        st.session_state.pid = uuid.uuid4().hex[:12]
-        st.session_state.order = assign(load_items(), seed=int(st.session_state.pid, 16))
+        st.session_state.pid = str(10 ** 9 + secrets.randbelow(9 * 10 ** 9))   # numerical, 10 digits
+        st.session_state.order = assign(load_items(), seed=int(st.session_state.pid))
         st.session_state.stage, st.session_state.pos = "consent", 0
     stage = st.session_state.stage
     if stage == "consent":
