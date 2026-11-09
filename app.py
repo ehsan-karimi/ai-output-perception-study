@@ -34,7 +34,7 @@ WORD = {6: "six"}
 SPECIAL = ["No bias", "Offlist", "Not_visible"]   # saved as "no bias", "offlist", "not_visible"
 FIELDS = ["timestamp_utc", "participant", "group", "position", "item_id", "bias", "modality", "caption_id",
           "choice", "intensity", "seconds", "app_version"]
-APP_VERSION = "2026-11-07a"                      # two groups of participants, 6 tasks, one model (72 items)
+APP_VERSION = "2026-11-09a"                      # 2026-11-07a + highlights for more garment words (3 texts)
 
 
 @st.cache_data
