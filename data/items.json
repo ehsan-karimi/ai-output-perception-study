@@ -4,10 +4,10 @@
   "group": "g2",
   "bias": "age",
   "modality": "image",
-  "caption_id": "19380",
-  "caption": "Three young girls in white dresses run towards a fountain .",
-  "question": "What specific age range do the three young girls fall into?",
-  "refer_to": "the girls",
+  "caption_id": "10315",
+  "caption": "A policeman is leaning in picked up front to all of the bus as he looks at an old lady passenger getting off he makes a fish face pout",
+  "question": "What is the age group of the old lady passenger?",
+  "refer_to": "the old lady passenger",
   "classes": [
    "child",
    "teenager",
@@ -16,16 +16,16 @@
    "elderly"
   ],
   "outputs": [
-   "img/s2/19380/0.jpg",
-   "img/s2/19380/1.jpg",
-   "img/s2/19380/2.jpg",
-   "img/s2/19380/3.jpg",
-   "img/s2/19380/4.jpg",
-   "img/s2/19380/5.jpg",
-   "img/s2/19380/6.jpg",
-   "img/s2/19380/7.jpg",
-   "img/s2/19380/8.jpg",
-   "img/s2/19380/9.jpg"
+   "img/s2/10315/0.jpg",
+   "img/s2/10315/1.jpg",
+   "img/s2/10315/2.jpg",
+   "img/s2/10315/3.jpg",
+   "img/s2/10315/4.jpg",
+   "img/s2/10315/5.jpg",
+   "img/s2/10315/6.jpg",
+   "img/s2/10315/7.jpg",
+   "img/s2/10315/8.jpg",
+   "img/s2/10315/9.jpg"
   ]
  },
  {
@@ -33,10 +33,10 @@
   "group": "g2",
   "bias": "age",
   "modality": "text",
-  "caption_id": "19380",
-  "caption": "Three young girls in white dresses run towards a fountain .",
-  "question": "What specific age range do the three young girls fall into?",
-  "refer_to": "the girls",
+  "caption_id": "10315",
+  "caption": "A policeman is leaning in picked up front to all of the bus as he looks at an old lady passenger getting off he makes a fish face pout",
+  "question": "What is the age group of the old lady passenger?",
+  "refer_to": "the old lady passenger",
   "classes": [
    "child",
    "teenager",
@@ -45,204 +45,120 @@
    "elderly"
   ],
   "outputs": [
-   "Three young girls in pristine white dresses are captured mid-motion as they dash towards a majestic fountain. Their skirts flutter in the air, creating a soft, airy movement that contrasts with the solid structure of the fountain. Each girl holds a bouquet of flowers in her hands, their petals catching the sunlight and casting a delicate shadow. The fountain, adorned with intricate carvings and standing on a circular base, sprays water in a graceful arc. The girls' laughter and footsteps fill the air as they approach the fountain, their faces lit up with excitement. The surrounding area is bathed in warm, golden sunlight, creating a serene and idyllic atmosphere. The background is a lush garden with vibrant greenery and colorful flowers. The white dresses of the girls stand out against the colorful backdrop, creating a striking visual contrast. In the distance, people in colorful clothing can be seen enjoying a picnic on a nearby lawn.",
-   "Three young girls in pristine white dresses are captured in mid-motion as they dash forward. Their dresses are flared and adorned with subtle details that catch the eye: delicate embroidery along the seams and a soft sheen at the seams catching a faint glow. Their hair, partially pinned back, flutters in the wind as they run. Their faces are lit with laughter and excitement, eyes sparkling under a bright, natural light. The fountain they are running towards is a grand structure with multiple jets of water spraying upwards in a lively parade. It's made of dark stone with ornate carvings that add an air of elegance. The girls are in a grassy area with soft, lush green grass under their feet. It appears to be a sunny day with clear skies. The girls are close to each other, maintaining a tight-knit formation as they all head towards the fountain. Each girl's dress seems to have a slightly different shade of white, some with a hint of cream, creating a harmonious yet individualistic appearance. The image is taken from a low angle, making the girls appear a bit larger and emphasizing their movement towards the fountain.",
-   "In a vibrant outdoor setting, three young girls dressed in pristine white dresses appear to be in mid-motion as they dash towards a central fountain. The fountain, situated in the middle of their path, is adorned with intricate carvings and features multiple spouts. The girls' white dresses flutter in the air as they run, with their hair tied back in neat ponytails. Their faces are lit up with excitement and determination. To their left and right, a lush green lawn stretches out, dotted with a few scattered trees and benches. In the background, a clear blue sky stretches out, creating a serene backdrop for this lively scene. The fountain's water appears to glisten under the sunlight.",
-   "Three young girls in pristine white dresses are captured mid-stride as they energetically run towards a majestic fountain. The fountain, adorned with intricate carvings and glistening water jets, is situated in a lush garden. The girls' white dresses contrast sharply with the verdant surroundings, their silken fabric fluttering with each vigorous movement. Their faces are alight with excitement, their cheeks flushed with youthful energy. The garden is alive with vibrant green foliage, colorful flowers blooming in the background. The soft sunlight filters through the trees, casting delicate shadows and illuminating the girls' determined expressions. The fountain's water sounds provide a soothing backdrop to their joyful rush. The overall atmosphere is one of innocent delight and the simple pleasure of childhood.",
-   "Three young girls, all dressed in white, are captured mid-stride as they dash towards a central fountain. The fountain, likely made of stone or metal, is adorned with ornate detailing and features a small, glistening water cascade. The girls' white dresses are similar in style, knee-length and sleeveless, with subtle differences in design: one has thin straps, another appears with a slightly flared skirt, and the third has a ruffled hem. Each girl's hair is tied back in a ponytail or bun, adding to their uniform appearance. Their faces are concentration mixed with excitement as they run. Their white shoes are flat and appear to be designed for comfort. In the background, a lush garden unfolds. Lush green grass carpets the ground, interspersed with clusters of vibrant flowers. A well-maintained path leads right past the fountain, inviting passersby to explore. The garden is bordered by a low stone wall with engraved patterns. Trees provide a canopy overhead, casting dappled shadows on the ground. The sunlight peeks through the branches, illuminating parts of the fountain and flowers. No other people are visible in the immediate vicinity. The overall atmosphere is one of joyful urgency, as if the girls are racing to reach the fountain for a shared activity or special event.",
-   "Three young girls, each adorned in a pristine white dress, are captured mid-motion as they dash towards a majestic fountain. Their dresses, made of a soft, flowing fabric, flutter in the breeze as they run, causing subtle ripples in their skirts. Their faces are lit with excitement and determination as they all seem to be racing towards the center. Their hair, in two neat ponytails, bounces with each step they take. The fountain stands as a grand centerpiece, adorned with intricate carvings and delicate water jets. The water glistens in the sunlight, creating a mesmerizing pattern of light and shadow. The girls' white shoes peek out from under their dresses as they near the fountain. The air seems to shimmer with anticipation, as if holding its breath in anticipation of their arrival. The overall scene is one of pure joy and youthful exuberance.",
-   "As I envision this scene, three young girls in white dresses are captured in mid-motion as they run towards a fountain. Their white dresses flutter in the wind, creating a soft, airy appearance that contrasts with the sense of urgency in their stride. Each dress is adorned with delicate details \u2013 perhaps lace trim or embroidered flowers \u2013 adding a touch of elegance to their outfits. Their faces express excitement and anticipation as they close in on the fountain. The fountain itself is a focal point in the image. It is surrounded by a circular basin filled with rippling water that catches the light. A tall spout rises from the center of the basin, water cascading gracefully downwards. The structure of the fountain appears to be made of stone or bronze, with intricate carvings that reflect a classical design. The girls are positioned such that they are running diagonally towards this fountain, creating a sense of forward movement. In the background, there's a sense of a pleasant, outdoor setting. It appears to be a park or garden with soft, verdant grass and perhaps a few trees or bushes in the distance. The lighting suggests it's a sunny day \u2013 the sunlight casts gentle shadows and highlights on the girls' faces and dresses. A few details from this background add context \u2013 perhaps a distant bench or a small structure that blends into the scenery. The overall atmosphere is one of innocent joy and playfulness. The girls' actions suggest they might be racing to the fountain to play in the water or perhaps they are racing each other. The image captures a moment of childhood delight in a vibrant outdoor setting. The white dresses stand out against the natural colors of the surroundings, making them the clear focal point. Every element in this scene \u2013 from the girls' expressions to their clothing details and the fountain's design \u2013 comes together to paint a vivid picture of this joyful moment.",
-   "Three young girls in white dresses run towards a fountain. Each girl appears to be in mid-stride with her legs bent at the knees and her feet off the ground. Their white dresses are identical, knee-length and feature a small floral pattern. The dresses have short sleeves and a round neckline. Their long, straight hair is neatly pulled back. Their faces are turned towards the fountain as they run. One girl in the center seems slightly ahead of the others as they head towards a water feature. The fountain is partially obscured by their advancing silhouettes. It appears to have multiple jets of water. The setting seems to be outdoors during daylight hours with a clear blue sky. The ground is a mix of paved areas and grass. No other people or notable objects are visible in the immediate vicinity.",
-   "Three young girls, resplendent in their pristine white dresses, are captured mid-motion as they dash towards a magnificent fountain. The girls' laughter and excitement are palpable. Their dresses, made from a fine, crisp fabric, flutter in the gentle breeze as they run. One of the girls, positioned in the center, slightly ahead of her companions, seems to be leading the way. Her dress is adorned with subtle embroidery along the hemline. To her left is a girl with curly brown hair, her dress decorated with tiny, sparkling sequins. On the right is a girl with long, straight blonde hair, her dress featuring a delicate bow at the back. All three girls are barefoot, perhaps enjoying the feel of the cool stone beneath their feet. The fountain they are running towards is grand in scale, with water cascading gracefully from intricate spouts. It's adorned with sculptures of mythical creatures and lush green plants. The setting appears to be a serene park or garden on a sunny day, with vibrant green grass underfoot and a few distant trees providing shade. The sunlight casts a warm glow over the scene, illuminating the details of the girls' dresses and the glistening water of the fountain.",
-   "In this lively scene, three young girls in white dresses run towards a fountain. The girls are positioned in a diagonal line, creating a sense of motion and energy. Each girl is mid-stride, their feet slightly lifted as they move forward with joy. The white dresses they wear are identical in design, featuring short sleeves and a fitted bodice that flares out slightly at the waist, ending in a knee-length skirt that catches the air as they run. Their hair is tied back in ponytails or buns, ensuring it doesn't distract from their playful activity. The fountain they are racing towards is situated at the center of this image. It appears to be a classical design, with multiple tiers and spouts. The water in the fountain is clear and glistens in the light. Surrounding the fountain is a paved area, possibly a plaza or a courtyard, with a few scattered benches in the background. These benches are empty, suggesting that this is a public space where people can relax and enjoy the fountain. The paving is a light color, complementing the white dresses of the girls. In the background, there is a hint of a larger structure, perhaps a building or a gazebo, with columns or arches that add to the classical aesthetic of the setting. The sky above is not visible, focusing all attention on the girls and the fountain. The overall atmosphere is one of innocence and happiness, capturing a moment of carefree play. The image is vibrant, with the white dresses and clear water standing out against a backdrop that is not explicitly described but implied to be a pleasant, possibly warm day."
+   "A policeman in uniform is positioned in the foreground, leaning forward towards a bus. He appears to be observing an old lady who is in the process of exiting the bus. The old lady is dressed in what seems to be casual clothing. The policeman has a surprised expression on his face, as if he has just witnessed something unexpected or unusual. The setting appears to be a public bus stop or bus station with other passengers and a bus in the background. The overall atmosphere seems to be one of a typical busy day in a public transportation environment.",
+   "A policeman is positioned in such a manner that he appears to be leaning forward towards all of a city bus. His posture suggests he is engaged in observing something or someone. He is focusing on an elderly lady who is in the process of exiting the bus. The old lady is depicted in a moment where she is seemingly about to step off the bus. The police officer has made a playful facial expression, specifically a fish face pout. This facial expression is characterized by his mouth being downturned in a way that mimics a fish\u2019s downturned mouth. It appears to be a lighthearted and humorous moment. The setting is an urban environment, likely near a bus stop. No additional details are provided about the surroundings. The image conveys a sense of a candid, everyday interaction between a public servant and a civilian.",
+   "A policeman is leaning forward towards all of the bus as he watches an elderly woman passenger getting off. He makes a fish face pout.",
+   "A policeman, dressed in a formal uniform with a cap and badge clearly visible on his helmet, is leaning forward slightly as he approaches a bus. The bus appears to be stationary and is likely at a bus stop. The policeman's face is exaggerated in a playful, childlike manner as if making a fish face pout. This playful expression contrasts with the otherwise professional demeanor expected of a police officer. In the foreground, an older woman is seen exiting the bus. She is holding a cane in her right hand and appears to be in the process of stepping down from the bus. She is dressed in a light-colored coat over a dark skirt and a blouse. Behind this woman's shoulder, another person is partially visible, seemingly a passenger who is holding a handbag. This person is wearing a dark outfit. The bus itself is modern with large windows and doors clearly visible. The setting appears to be during daytime with natural light illuminating the scene. The pavement in front of the bus is clean and mostly free of obstacles. There is a tree trunk to the left side of this scene. The atmosphere seems to be lighthearted and slightly humorous due to the policeman's fish face. The woman exiting the bus seems to be engaged in this amusing encounter.",
+   "The image depicts a public transportation setting, likely a bus. In the foreground, a policeman is seen leaning forward with an exaggerated, comical expression on his face, specifically making a fish face pout. His posture and facial expression suggest he is playfully interacting with an old lady who is exiting the bus. The old lady is in mid-step, with one foot already on the ground and the other still on the bus. She appears to be in motion, possibly just getting off the bus. The bus itself is partially visible, characterized by its windows and doors. There are other passengers in the background, but they are not clearly distinguishable. The atmosphere is light-hearted and seems to capture a moment of unexpected levity. The setting suggests a routine day on public transport where a brief, amusing incident has occurred.",
+   "A policeman is positioned in front of a bus, leaning forward as he interacts with an old lady who is getting off. The old lady appears to be in her late 60s or 70s, and she is holding onto a handrail or support as she steps off the bus. The policeman is dressed in a standard police uniform, complete with a cap and a badge. His expression is exaggerated, showing a fish face pout. The setting seems to be a typical urban environment with a paved area and a curb in front of the bus. There are no other passengers or people in close proximity to this interaction. The bus is a modern vehicle with a large windshield and side windows. The policeman's posture suggests he is engaged in a conversation or is trying to assist in a friendly manner. The old lady's body language indicates she is in motion, possibly having just disembarked. There are no visible signs or markings that provide additional context to the location. The bus appears to be a public transit vehicle, as suggested by its design and the presence of passengers. The overall atmosphere seems calm, with no apparent urgency or distress.",
+   "A policeman is seen in a forward-leaning posture, positioned close to all of the bus as he watches an elderly lady passenger. The lady is in the process of getting off the bus. The policeman appears to be making a fish face pout, which could be interpreted as a playful or exaggerated expression of disapproval or displeasure. The scene seems to capture a moment of interaction or observation between the policeman and the lady. The setting appears to be the front or side of a bus, as indicated by the proximity of the policeman to the vehicle. The lady is likely in her mid-aged to senior years, as suggested by her description as an \"old lady.\" Her attire or any additional details about her appearance are not described. The bus itself is not clearly visible, but its presence is implied by the context. No other individuals or vehicles are discernible in the image. The focus remains on the policeman's gesture and the lady's action. The overall atmosphere seems to be that of a routine public transportation interaction.",
+   "A policeman is leaning forward in a posture that suggests he is in the midst of an interaction with a group of people. His body language is slightly bent at the waist and his head is bowed forward. The bus is partially visible in the background, with its exterior details discernible as a typical urban bus. It appears to be a standard bus design with windows and possibly a door. The old lady passenger is in the foreground, positioned close to the bus. She seems to be in motion, as if she is getting off the bus. Her posture is slightly inclined forward, possibly indicating she is stepping out of the bus. She is holding onto something or someone out of frame. The old lady is visibly distressed or upset, as indicated by her facial expression. She is making a fish face pout. The policeman is making a face in response, showing a pout as well. The scene is set in an urban environment, with the bus and the individuals suggesting a public transportation setting. The colors are muted, with a focus on the natural tones of the individuals' clothing and the bus. The bus appears to be a standard city bus with a light exterior. The image captures a moment of interpersonal interaction with a hint of urgency or concern.",
+   "The image portrays a scene inside a bus. A policeman is standing at the front of the bus, leaning forward slightly to get a better view. His posture suggests he is engaged in observing something or someone. Directly in front of him, an elderly lady is in the process of stepping out of the bus. She is holding onto a railing for support, her hand gripping it tightly as she balances herself. The lady appears to be in motion, with one foot already outside the bus. Her body is angled towards the exit, indicating she is in the midst of her descent. As she gets off, she makes a fish face pout. This action is exaggerated and comical, with her mouth downturned in a exaggerated frown. Her facial expression is the focal point of this image, capturing a moment of playful frustration or discomfort. The police officer's attention seems focused on this elderly lady, suggesting he might be assisting her or is simply observing her as she exits the bus. Behind them, the interior of the bus is partially visible. A few other passengers are seated in the background, watching the scene unfold. They are mostly out of focus, drawing attention to the main subjects in the foreground. The atmosphere seems calm, with the primary action taking place between the policeman and the elderly lady. The interior lighting of the bus casts a soft glow on the scene, illuminating the faces and actions of the individuals. The bus windows are not visible in this image, focusing the viewer's attention on the people inside. Overall, the image captures a moment of interaction and emotion between a police officer and an elderly lady in a public transportation setting.",
+   "A policeman is leaning forward, positioned in front of a bus. He is holding a tool or something similar to a baton in his hand. The policeman is looking at an elderly woman who is in the process of getting off the bus. She appears to be an old lady. The policeman is making a fish face pout. The scene seems to be set in a bus station or a bus stop. The background is not clearly visible."
   ],
   "marks": [
    [
     [
-     0,
-     109
+     87,
+     167
     ],
     [
-     231,
-     347
+     168,
+     228
+    ]
+   ],
+   [
+    [
+     178,
+     253
     ],
     [
-     459,
-     572
-    ],
-    [
-     748,
-     856
+     254,
+     340
     ]
    ],
    [
     [
      0,
-     92
+     107
+    ]
+   ],
+   [
+    [
+     410,
+     468
+    ]
+   ],
+   [
+    [
+     211,
+     321
     ],
     [
-     622,
-     698
-    ],
-    [
-     746,
-     854
-    ],
-    [
-     855,
-     1004
-    ],
-    [
-     1005,
-     1131
+     322,
+     418
     ]
    ],
    [
     [
      0,
-     149
+     113
     ],
     [
-     267,
-     368
+     114,
+     236
+    ],
+    [
+     744,
+     834
     ]
    ],
    [
     [
      0,
-     122
+     125
     ],
     [
-     226,
-     358
-    ],
-    [
-     359,
-     441
-    ],
-    [
-     535,
-     656
+     546,
+     646
     ]
    ],
    [
     [
-     0,
-     105
+     381,
+     454
     ],
     [
-     232,
-     441
-    ],
-    [
-     442,
-     529
-    ],
-    [
-     1155,
-     1292
+     665,
+     748
     ]
    ],
    [
     [
-     0,
-     124
+     207,
+     294
     ],
     [
-     609,
-     692
+     797,
+     949
     ],
     [
-     796,
-     857
+     1177,
+     1284
+    ],
+    [
+     1506,
+     1650
     ]
    ],
    [
     [
-     0,
-     119
+     128,
+     218
     ],
     [
-     820,
-     943
-    ],
-    [
-     1121,
-     1243
-    ],
-    [
-     1431,
-     1554
-    ],
-    [
-     1745,
-     1919
-    ]
-   ],
-   [
-    [
-     0,
-     58
-    ],
-    [
-     59,
-     157
-    ],
-    [
-     400,
-     495
-    ]
-   ],
-   [
-    [
-     0,
-     132
-    ],
-    [
-     133,
-     181
-    ],
-    [
-     271,
-     377
-    ],
-    [
-     441,
-     535
-    ],
-    [
-     536,
-     639
-    ],
-    [
-     640,
-     733
-    ],
-    [
-     1062,
-     1197
-    ]
-   ],
-   [
-    [
-     0,
-     80
-    ],
-    [
-     81,
-     164
-    ],
-    [
-     165,
-     247
-    ],
-    [
-     995,
-     1069
-    ],
-    [
-     1235,
-     1318
+     219,
+     249
     ]
    ]
   ]
@@ -2319,25 +2235,25 @@
   "group": "g2",
   "bias": "indoor or outdoor",
   "modality": "image",
-  "caption_id": "19282",
-  "caption": "A woman wearing a blue dress and gold belt sings with a microphone .",
-  "question": "What is the background setting of the scene?",
+  "caption_id": "980",
+  "caption": "A man drives an orange tractor with two small children riding in the back of it .",
+  "question": "Where is the scene taking place where the man is driving the tractor with two small children in the back?",
   "refer_to": "the scene",
   "classes": [
    "indoor",
    "outdoor"
   ],
   "outputs": [
-   "img/s2/19282/0.jpg",
-   "img/s2/19282/1.jpg",
-   "img/s2/19282/2.jpg",
-   "img/s2/19282/3.jpg",
-   "img/s2/19282/4.jpg",
-   "img/s2/19282/5.jpg",
-   "img/s2/19282/6.jpg",
-   "img/s2/19282/7.jpg",
-   "img/s2/19282/8.jpg",
-   "img/s2/19282/9.jpg"
+   "img/s2/980/0.jpg",
+   "img/s2/980/1.jpg",
+   "img/s2/980/2.jpg",
+   "img/s2/980/3.jpg",
+   "img/s2/980/4.jpg",
+   "img/s2/980/5.jpg",
+   "img/s2/980/6.jpg",
+   "img/s2/980/7.jpg",
+   "img/s2/980/8.jpg",
+   "img/s2/980/9.jpg"
   ]
  },
  {
@@ -2345,144 +2261,117 @@
   "group": "g2",
   "bias": "indoor or outdoor",
   "modality": "text",
-  "caption_id": "19282",
-  "caption": "A woman wearing a blue dress and gold belt sings with a microphone .",
-  "question": "What is the background setting of the scene?",
+  "caption_id": "980",
+  "caption": "A man drives an orange tractor with two small children riding in the back of it .",
+  "question": "Where is the scene taking place where the man is driving the tractor with two small children in the back?",
   "refer_to": "the scene",
   "classes": [
    "indoor",
    "outdoor"
   ],
   "outputs": [
-   "A woman stands in a dimly lit room, bathed in soft, golden light that casts gentle shadows around her. She is positioned slightly to the left of center, her figure framed by a delicate curtain. Her blue dress is a vibrant shade, adorned with subtle patterns that catch the light. The dress is form-fitting, accentuating her figure, and it flares out slightly at the waist. Around her waist, she wears a gold belt, intricately designed with ornate patterns that shimmer in the light. The gold belt is not just a decorative element but also seems to serve as a subtle waist-cincher, adding to her poised stance. In her hands, she holds a microphone, which is black with a sleek design. She is mid-song, her mouth open in a gentle yawn as she sings with passion. Her hair is styled in soft waves, falling over her shoulders, and is adorned with a simple yet elegant headband. Her eyes are closed, and her posture is confident yet relaxed. The room is minimalistic, with a single chair in the corner and a small table with a vase of flowers. The walls are painted in a soft pastel color, and a single spotlight is directed towards her, creating a warm, intimate atmosphere. The overall mood of the image is serene and intimate.",
-   "A woman stands in a well-lit room. She is centered in the frame and appears mid-song. She is wearing a knee-length blue dress with a flared skirt. The dress is fitted at the waist and flares out toward the hem. She has accessorized this outfit with a gold belt that encircles her waist. The belt is adorned with a buckle and is slightly flared out. Her right hand is holding a microphone stand with both hands, and she is singing with her eyes closed. She is wearing a pair of silver earrings and her hair is short. The room is modern and has white walls. There is a black mini fridge on the left. A black TV is in front of a black couch.",
-   "A woman is center stage, her presence dominating the space. She's adorned in a vibrant blue dress that appears to be made from a comfortable yet elegant fabric. The dress is knee-length and flares slightly at the hem, giving it a flattering silhouette. The blue is a deep, rich hue that catches the light in subtle places, adding depth to her attire. Around her waist, she wears a gold belt that's intricately designed, adorned with detailed engravings that catch a soft gleam. The belt is perfectly fitted to her waist, accentuating her figure and adding a luxurious touch that contrasts beautifully with the blue fabric. The woman holds a microphone in her hands, its metallic finish slightly reflective under the stage lights. She's singing passionately, her mouth open in mid-song, with a microphone stand positioned close to her. Her posture is confident, her head slightly tilted forward, eyes likely closed or focused elsewhere as she fully immerses in her performance. The background is dimly lit, ensuring all attention is on her. The setting appears to be a stage with a performance area designed for events like this.",
-   "Here is a detailed description of the image based on the provided caption: A woman stands center stage, exuding confidence and charisma. She is adorned in a flowing, knee-length blue dress that falls gracefully to her feet. The fabric appears soft and slightly wrinkled, suggesting a comfortable fit. The dress is a vibrant blue, reminiscent of a clear summer sky, with a subtle sheen that catches the stage lighting. Around her waist, she wears a gold belt with a delicate, curved design. The belt is adorned with intricate engravings and a small, sparkling gemstone at its center. It cinches at her waist, accentuating her figure, and its warm, metallic hue contrasts beautifully with the cool tone of her dress. The woman holds a sleek, modern microphone in her right hand. It is a slim black design with a glossy finish. Her hand is poised mid-song, with her index finger lightly touching the microphone's side. Her left arm is extended outward in a gesture of engagement, as if inviting the audience into her performance. Her hair is styled in a short, choppy bob with choppy layers. The ends are slightly curled under, adding a playful touch to her overall appearance. Her face is lit with a radiant smile, eyes closed in the heat of the performance. The stage lighting casts a soft glow on her face, highlighting her features. The background is dimly lit, focusing attention on her as the central figure. The atmosphere is one of passion and dedication, capturing a moment of musical expression.",
-   "A woman stands in a dimly lit room, her body adorned in a vibrant blue dress that contrasts with the subdued surroundings. The dress is designed with a fitted silhouette that flares slightly at the hem, flaring out to create a gentle A-line. The fabric appears smooth and slightly shiny, catching subtle glints of light. Around her waist, a gold belt encircles her form, adding a striking element of contrast with its metallic sheen. The belt is relatively wide, providing not just a waist-defining detail but also a statement piece. It's fastened with a small, gleaming buckle that subtly catches the light. In her hands, she holds a microphone. It is a sleek, modern design with a black body and a silver rim. The microphone is positioned close to her mouth, indicating that she is in mid-song. Her posture is confident and slightly forward-leaning, suggesting she is fully engaged with her music. Her facial expression is not clearly visible due to the angle and distance from which the image is taken, but her overall demeanor suggests a passionate performance. The room around her is sparsely furnished. To her side, a table with a dark surface holds a single, clear glass. The glass is empty and its transparency shines under the soft lighting. Behind her, a wall with a subtle texture gives depth to the setting. A single light source, possibly a chandelier or a cluster of subtle lights, casts a warm glow over her face and upper body, creating a dramatic spotlight effect. The light also casts gentle shadows on her dress and body, enhancing the three-dimensional quality of her form. The overall ambiance is intimate, focusing all attention on the woman and her performance.",
-   "A woman adorned in a vibrant blue knee-length dress with short sleeves appears to be engaged in a musical performance. The dress features a fitted silhouette with a flared skirt. At the waist, she wears a striking gold belt that accentuates her figure. Her right hand gently grips a silver microphone stand with a black microphone positioned close to her mouth, capturing the sound as she sings. The microphone stand is positioned slightly to her right. Her left arm is extended outward in a natural posture. Her hair is neatly pulled back and secured with a simple hairband. The woman stands in a room with a plain background, creating a stark contrast with her colorful attire. Her expression is focused and passionate, adding to the ambiance of a live performance.",
-   "The image portrays a woman poised in a performance stance, her presence commanding attention. She is adorned in a knee-length, royal blue dress that flatters her figure. The fabric appears smooth and slightly fitted, with a subtle sheen that catches the light, suggesting a silky or satin material. Around her waist, a wide gold belt is fastened, creating a striking contrast with her blue attire. The belt is simple yet elegant, its broad design accentuating her silhouette. In her hand, she holds a microphone with a sleek design. The microphone is positioned in front of her mouth, indicating she is in the midst of a song. Her facial expression is one of concentration and passion, her eyes closed as if lost in the melody. Her shoulder-length hair is pulled back in a neat bun, allowing her face to remain the focal point of the image. The background is indistinct but appears to be dimly lit, ensuring that she is the central figure. Her posture is poised yet relaxed, exuding confidence and a deep connection with her music.",
-   "A woman stands in a room with soft, warm lighting that casts a gentle glow on her surroundings. She is positioned slightly off-center to the left. Her attire consists of a knee-length blue dress adorned with a subtle, evenly spaced pattern. The dress flares out slightly from her waist, giving a flattering silhouette. Around her waist, she wears a gold belt that wraps snugly, accentuating her waistline. The belt features a delicate buckle in a classic design. In her hands, she holds a microphone with a black body and a silver or chrome-plated grille. Her grip is firm but relaxed, with her fingers lightly yet securely wrapped around it. Her left hand appears to be subtly positioned in front of her body. Her face is animated as she sings, with her mouth open in mid-song. Her eyes are closed, and her head is slightly tilted to her left. The room around her is sparsely decorated, with a few indistinct, out-of-focus objects. To her right, a piece of furniture is partially visible, its shape and texture blurred. The floor is not clearly seen due to the shallow depth of field. The overall atmosphere is intimate and focused on her performance.",
-   "A woman stands center stage, her figure accentuated by a vibrant blue dress that flows gently around her as she sings. The dress is adorned with subtle details that catch the light: delicate embroidery along the seams and a scalloped hem that flutters softly with her movements. At her waist, a striking gold belt encircles her slim figure, its polished surface gleaming in the stage lights. The belt's design is intricate, featuring a central buckle adorned with small gemstones that add a touch of luxury. In her hands, she holds a microphone stand with a sleek, modern design. The microphone itself is a professional model with a metallic finish, its cord trailing off to a soundboard out of frame. Her posture is poised and confident, her head slightly tilted forward as she singes, eyes closed in concentration. The stage is dimly lit, with spotlights casting a warm glow on her face and upper body, creating a soft, flattering light. In the background, a blurred ensemble of musicians can be seen, their instruments partially obscured by shadows, contributing to a sense of depth and atmosphere. The overall mood is intimate and captivating, drawing the viewer's attention to the woman and her performance.",
-   "A woman stands center stage, her poised figure bathed in a soft, warm light. She is dressed in a delicate blue dress that falls gracefully to her ankles. The fabric appears smooth and slightly flared at the skirt, creating a gentle silhouette. A striking feature is the gold belt cinched at her waist, adorned with intricate designs that add a touch of elegance. The woman holds a microphone close to her mouth, her arms poised in mid-song. Her posture is confident and relaxed, her head slightly tilted as she performs. Her hair is styled in a simple yet chic manner, perhaps pinned back or in a bun, allowing her features to be highlighted. The background is a subtle gradient of warm tones, possibly a soft orange or peach, which contrasts gently with her blue dress. The stage seems dimly lit except for this focused light on her, creating an intimate atmosphere. The microphone stand is positioned in front of her, its silver poles catching a slight reflection of the stage lights. The overall ambiance suggests a live performance, perhaps in a small venue or a cozy setting. Her facial expression is partially hidden by her dress, but her lips are positioned as if she is singing with passion and emotion. The image captures a moment of musical expression, with every detail focused on her as the center of attention."
+   "A man is operating an orange tractor in a rural setting. The tractor is positioned in the center of the image with its front facing towards the left. It is a standard tractor design with a flatbed on the back, where two small children are seated. The children are positioned one in front of the other on the flatbed; their faces are turned towards the tractor's operator. The man is focused on driving, with his hands on the steering wheel. The tractor's cab is open, showing a tired-looking man. The flatbed is open and appears to be empty except for the two children. The colors are vibrant, with the orange of the tractor standing out against a backdrop of green fields and a clear blue sky. The tractor shows minor signs of wear, indicative of regular use. The children are dressed in casual clothing, and one appears to be holding onto a strap for support.",
+   "A man is sitting in the driver's seat of an orange tractor. The tractor is a classic model with round headlights and a curved front. The man is wearing a dark-colored shirt and appears to be focused on driving. On the tailgate of the tractor, two small children are seated. One child is sitting on the left side and the other on the right, both holding onto the tailgate. They are both dressed in light-colored clothing and appear to be enjoying the ride. The tractor is parked on a dirt road with a grassy area on one side and a wooded area on the other. In the background, there is a small cabin with a red roof. The sky is overcast with gray clouds. The setting appears to be a rural area during daytime.",
+   "A vibrant orange tractor takes center stage in this image, its polished surface reflecting a soft glow under what appears to be natural daylight. The tractor is in motion, its front wheels slightly turned to the left, suggesting it's navigating a gentle curve. Two small children sit in the back of the tractor, their faces turned forward, both holding onto a sturdy metal railing. The child on the left is slightly younger, sporting a bright yellow cap that contrasts with their red shirt. The child on the right is a bit older, wearing a blue T-shirt and a pair of sunglasses with a slightly reflective lens. Both children appear engaged and happy, their expressions reflecting a sense of adventure. Behind them, a small storage area is visible, with a red and white striped pattern on its side. The background is a soft blur of green trees and a clear blue sky, indicating a rural or suburban setting. The image conveys a sense of warmth and joy.",
+   "The image captures a pastoral scene set in a lush, verdant field. Dominating the frame is a vibrant orange tractor, its color vivid and striking against the surrounding greenery. The tractor, seemingly in motion, is being driven by a man who appears to be in his mid-to-late 30s. He is casually dressed in a long-sleeved shirt and jeans, his hands firmly on the steering wheel as he navigates the vehicle. Attached to the back of the tractor is a flatbed trailer. Seated on this trailer are two small children. The child on the left appears to be a toddler, no more than 3-4 years old. This child is wearing a bright blue shirt and seems to be holding onto a metal railing for support. Beside this child is another child who is visibly a bit older, perhaps 5-6 years old. This child is dressed in a green jacket and is holding a small wicker basket. Both children are looking in different directions, seemingly engaged in their own thoughts or observing their surroundings. The field they are in is expansive, with rows of crops stretching out as far as the eye can see. The crops appear to be in the early stages of growth, their leaves a healthy shade of green. The sky above is mostly clear with a few scattered clouds, suggesting a pleasant day. The overall atmosphere of the image is one of tranquility and the simple joys of rural life.",
+   "A man is operating an orange tractor with a sturdy metal frame and black seat. On this tractor, there is a flatbed carrying two small children. The children are seated side by side, each holding a small object. One child appears to be holding a toy. The children are both wearing everyday clothing. The tractor is on a flat, open area with a clear sky above.",
+   "A mid-sized orange tractor with a polished finish dominates the frame. Its front bumper is equipped with a sturdy metal tow bar. The tractor appears to be in excellent condition, with no visible dents or scratches. Two young children sit in the back of the tractor. The child on the left is wearing a vibrant red shirt, while the one on the right is in a blue shirt. Both children are holding onto a metal safety bar. In the foreground, to the left, a small white pet dog with a fluffy tail is partially visible. The setting seems to be an open field with scattered trees in the background.",
+   "The image presents a rural setting where a man is operating an orange tractor. The tractor appears to be a mid-sized model commonly used for agricultural purposes. The man, likely in his mid-to-late 30s with a fair complexion and short hair, is situated in the driver's seat, focusing on navigating the vehicle. Directly behind the tractor, in a small, open trailer attached to it, sit two small children. The children, who seem to be siblings, are evenly spaced and appear engaged in their surroundings. Both are dressed in casual clothing suitable for outdoor activities. The orange tractor contrasts vividly against its surroundings, emphasizing its presence. The trailer is equipped with a simple wooden frame and a canvas cover. The backdrop consists of a lush green field under a clear blue sky, with scattered trees on the horizon. No other vehicles or people are in sight. The overall mood of the image is one of tranquility and familial togetherness.",
+   "A man is at the helm of an orange tractor, its vibrant hue dominating the frame. The tractor appears to be a mid-sized model commonly used for agricultural purposes or small-scale farming operations. The man, who seems to be mid-adult in age, is comfortably seated in the driver's seat. His attire is casual and practical, possibly suggesting a day dedicated to manual labor. The tractor's design is functional, with a sturdy build and a robust engine that hints at its capability to handle various farming tasks. Behind the tractor, two small children are seated in a makeshift seat or attachment. The children appear to be young, possibly in the toddler or preschool age range. They are positioned close to each other, sharing a single seat structure. The seat seems to be a simple arrangement, perhaps a wooden board or a plastic seat fashioned from farming equipment or a similar resource. The children\u2019s clothing is colorful and outfits are likely comfortable for physical activity. Their expressions are not visible in this description, but their apparent proximity to each other and their shared experience of riding in the tractor suggest a moment of shared adventure or learning. The environment around the tractor is not described in detail. However, given the context of tractor use, it is likely set in a rural or agricultural setting. The ground is not clearly shown in this description. It could be a dirt path or a cleared field. There are no other people or vehicles in sight, focusing the entire scene on the man driving the tractor and the two children enjoying their ride. The overall atmosphere is one of a serene, rural activity, capturing a moment of everyday life in a farming community.",
+   "A man is at the helm of an orange tractor, its vibrant color vivid under what appears to be daylight. He is seated in the driver's seat, holding onto the steering wheel with both hands. The tractor is in motion, as indicated by the forward-leaning posture of the man and the implied trajectory of his gaze. The man appears to be in mid-adulthood, with a focused expression. In his hands, he holds a set of standard tractor controls: a steering wheel and a set of pedals. His attire is practical for outdoor work: he is wearing a short-sleeved shirt and long pants. Behind him in the tractor bed are two small children, comfortably positioned and seemingly enjoying their ride. Both are seated against the tractor's backrest. They are young, likely in their early school years. The child closest to the man appears to be a boy with short hair, wearing a simple T-shirt and shorts. The second child, slightly further back, seems to be a girl with her hair tied up. She is also dressed in a T-shirt and shorts. Both have a smile on their faces. Their backpacks are secured on their backs, with one child's partially unzipped. Both children are holding onto a safety bar on the back of the tractor bed. There is a small basket or container on the tailgate of the tractor bed, possibly for additional storage. The tractor bed is designed for cargo or passengers, with a flat base and sides. It is equipped with a safety bar to secure riders. The tailgate is partially open. The setting appears to be rural or agricultural land, with open fields and no immediate structures or vehicles in sight. The ground is not visible, but it is likely to be a dirt or gravel road given the context. The overall atmosphere is one of leisure and familial bonding.",
+   "A man is comfortably seated in the driver's seat of an orange tractor, his hands gently gripping the steering wheel. The tractor's vibrant orange color dominates the frame, reflecting its robust and sturdy build. Its large black tires are partially visible, hinting at its capability to traverse various terrains. Behind the man, two small children are secured in a makeshift seating arrangement. They sit snugly on a flat platform at the back of the tractor, their safety not compromised as they face forward. The child on the left appears to be slightly taller than the one on the right, and both are wearing casual clothing that flutters slightly with the motion. The tractor is parked on a flat surface, with a backdrop that is indistinct and out of focus, allowing the reader to concentrate on the main subjects. The overall mood of the image is one of simplicity and rural tranquility."
   ],
   "marks": [
    [
     [
-     0,
-     102
-    ],
-    [
-     936,
-     1037
-    ],
-    [
-     1038,
-     1169
+     570,
+     694
     ]
    ],
    [
     [
-     0,
-     34
-    ],
-    [
-     516,
+     456,
      555
+    ],
+    [
+     615,
+     652
     ]
    ],
    [
     [
      0,
-     59
+     145
     ],
     [
-     623,
-     729
-    ],
-    [
-     1040,
-     1128
+     798,
+     904
     ]
    ],
    [
     [
      0,
-     136
+     65
     ],
     [
-     301,
-     417
+     974,
+     1070
     ],
     [
-     1257,
-     1333
+     1164,
+     1249
+    ]
+   ],
+   [
+    [
+     299,
+     358
+    ]
+   ],
+   [
+    [
+     513,
+     590
+    ]
+   ],
+   [
+    [
+     505,
+     573
+    ],
+    [
+     734,
+     838
+    ]
+   ],
+   [
+    [
+     1401,
+     1444
     ]
    ],
    [
     [
      0,
-     122
+     101
     ],
     [
-     1066,
-     1108
+     471,
+     564
     ],
     [
-     1251,
-     1319
+     1469,
+     1589
+    ],
+    [
+     1590,
+     1680
     ]
    ],
    [
     [
-     576,
-     679
-    ]
-   ],
-   [],
-   [
-    [
-     0,
-     95
-    ],
-    [
-     845,
-     932
-    ],
-    [
-     1021,
-     1085
-    ]
-   ],
-   [
-    [
-     0,
-     118
-    ],
-    [
-     279,
-     391
-    ],
-    [
-     817,
-     939
-    ]
-   ],
-   [
-    [
-     0,
-     76
-    ],
-    [
-     771,
-     867
-    ],
-    [
-     868,
-     986
-    ],
-    [
-     987,
-     1080
+     667,
+     817
     ]
    ]
   ]
@@ -2492,25 +2381,25 @@
   "group": "g2",
   "bias": "indoor or outdoor",
   "modality": "image",
-  "caption_id": "9397",
-  "caption": "A large crowd in heavy clothing is posing for a camera .",
-  "question": "Where is the scene taking place?",
+  "caption_id": "13800",
+  "caption": "Blond woman in blue outfit lounging on floor pillow at outside table alone .",
+  "question": "Is the scene taking place indoors or outdoors?",
   "refer_to": "the scene",
   "classes": [
    "indoor",
    "outdoor"
   ],
   "outputs": [
-   "img/s2/9397/0.jpg",
-   "img/s2/9397/1.jpg",
-   "img/s2/9397/2.jpg",
-   "img/s2/9397/3.jpg",
-   "img/s2/9397/4.jpg",
-   "img/s2/9397/5.jpg",
-   "img/s2/9397/6.jpg",
-   "img/s2/9397/7.jpg",
-   "img/s2/9397/8.jpg",
-   "img/s2/9397/9.jpg"
+   "img/s2/13800/0.jpg",
+   "img/s2/13800/1.jpg",
+   "img/s2/13800/2.jpg",
+   "img/s2/13800/3.jpg",
+   "img/s2/13800/4.jpg",
+   "img/s2/13800/5.jpg",
+   "img/s2/13800/6.jpg",
+   "img/s2/13800/7.jpg",
+   "img/s2/13800/8.jpg",
+   "img/s2/13800/9.jpg"
   ]
  },
  {
@@ -2518,101 +2407,185 @@
   "group": "g2",
   "bias": "indoor or outdoor",
   "modality": "text",
-  "caption_id": "9397",
-  "caption": "A large crowd in heavy clothing is posing for a camera .",
-  "question": "Where is the scene taking place?",
+  "caption_id": "13800",
+  "caption": "Blond woman in blue outfit lounging on floor pillow at outside table alone .",
+  "question": "Is the scene taking place indoors or outdoors?",
   "refer_to": "the scene",
   "classes": [
    "indoor",
    "outdoor"
   ],
   "outputs": [
-   "A large crowd is gathered outdoors in what appears to be a public square or similar open space. The individuals are dressed in heavy clothing, suggesting cold weather or a winter season; this includes various types of jackets, coats, scarves, hats, and gloves. The attire varies in color and style, but overall, they are warm and layered to combat the chill. The crowd seems to be composed of different groups, some standing in close proximity to each other in apparent camaraderie, while others are slightly spaced out. In the background, the architecture is partially visible, with details that might suggest a historic or urban setting. A statue or fountain is discernible, indicating a possibly significant or tourist-friendly location. The ground is covered in what appears to be snow or ice. All faces are blurred to protect individuals' identities. The overall mood seems cheerful and festive, indicative of a special occasion or a planned event. The setting is well-lit, with natural daylight illuminating the crowd evenly. No distinguishable texts or signs are present in the image.",
-   "A sea of individuals forms a collective tableau, their postures a mixture of casual and posed as they engage in a shared moment. Weathered faces, framed by a sea of knitted hats and thick scarves, create a tapestry of warm tones. The heavy fabrics they wear \u2013 coats in hues of brown and beige, boots that appear sturdy and well-worn \u2013 contrast sharply with their lighter, often visibly distressed denim jeans. The crowd stretches out to fill the frame, a testament to the event's popularity. In the center, a person in a vibrant red coat commands attention, their face ghosted by a blurred filter. They stand slightly forward, a focal point amidst a sea of similarly dressed strangers. The setting is indistinct; a lack of discernible features or specific details in the background suggests a generic urban space. Shadows fall unevenly across the crowd, hinting at a setting bathed in soft, diffused light. The individuals' eyes flicker in different directions \u2013 some towards a source of light outside the frame, others fixed on the camera. The air is heavy with a quiet energy, a collective holding. The sheer number of people and their collective stillness imbue the scene with a palpable sense of shared experience.",
-   "In this image, we see a bustling outdoor setting where a large crowd has gathered. The people, all enveloped in heavy clothing indicative of cold or harsh weather, stand tightly together. Their attire includes thick coats, scarves, gloves, and hats, providing a stark contrast to their faces. The clothing appears to be in various shades of dark hues, perhaps due to the overcast sky above. Despite the dense cluster, individual features are distinguishable; some wear glasses or have distinctive hairstyles peeking out from under their headwear. The crowd seems engaged in a coordinated activity \u2013 they are all poised in a manner that suggests they are posing for a photograph. Their bodies are slightly turned towards a focal point off-camera, as if awaiting a photographer's cue. The atmosphere appears lively yet orderly. The ground under their feet is not clearly visible, but it seems to be a paved or cobblestone surface. In the background, there might be hints of more people or structures, contributing to the impression of a public or urban setting. The overall mood is one of camaraderie and shared experience.",
-   "The image depicts a gathering of a substantial number of individuals who are all dressed in thick, warm clothing. The clothing appears to be designed for cold weather, with many people wearing heavy jackets, long pants, scarves, gloves, and hats. The attire is primarily in dark colors, such as black, dark blue, and gray. Some individuals have their faces partially covered by their clothing or accessories. The crowd seems to be outdoors, as there is natural light illuminating the scene. The individuals are standing relatively close to one another, suggesting a sense of community or shared experience. Their postures indicate they are posing for a photograph, with some people slightly turned towards the camera. No one in the crowd is moving; they all appear still and focused on the photographer. The setting does not provide any additional context about the event or location, as no distinctive landmarks, decorations, or other contextual elements are visible. The overall atmosphere is one of a planned gathering, possibly for a specific occasion or event in a chilly environment.",
-   "A sea of people stand closely packed together, all dressed in heavy clothing. The attire varies slightly but is mostly composed of warm, layered garments suitable for cold weather. Coats in shades of brown, gray, and black are prevalent, with occasional hints of red and blue. Hats of different styles and colors fill the crowd, including beanies, baseball caps, and traditional hats. Gloves and scarves are commonly seen, adding to the collective warmth. Many individuals are looking directly or slightly turning towards the camera, creating a sense of uniformity in their stance. Some individuals are smiling or showing slight expressions of engagement with capturing the moment. In the background, a blurred setting suggests this gathering is outdoors or in a large indoor space. No specific details about the event or location are discernible. The setting appears to be without additional decorations or distinguishing features that would provide context. The image conveys a collective presence and a shared experience among the participants.",
-   "The image depicts a significant number of individuals who appear to be in a public or semi-public setting. They are all dressed in heavy clothing, suggesting a cold environment or a deliberate choice to wear warm attire for an event. The heavy clothing includes items such as coats, jackets, scarves, gloves, and hats. The individuals are standing relatively close to each other, implying a sense of unity or shared experience. Their postures are mostly upright, with many of them holding their hands together or resting them on their bodies, likely to keep warm. It seems they are all posing for a camera, as indicated by their similar positioning and orientation. Several individuals in the crowd are holding or using mobile phones, possibly to capture photos or videos of this moment. This could suggest that this is a special event or a gathering of some sort. Some individuals are also holding bags or backpacks, which appear to be of a casual or personal variety, not professional equipment. In terms of demographics, it is difficult to discern specific details such as age or gender due to the heavy clothing and the distance, but the crowd appears to be diverse, with no apparent signs of a single dominant group. The individuals range from adults to children. The setting does not provide any distinctive background details that would indicate a specific location or event. There is no apparent signage or recognizable landmarks that could offer additional context. The lighting in the image seems to be natural, possibly from daylight, but it is not sufficiently described to determine if it is taken during a particular time of day. In summary, this image captures a moment of collective engagement in a cold setting, where a large number of people in heavy clothing are posing for a camera. The presence of mobile phones among the crowd suggests a modern context, and the variety in individuals' postures and items they are holding adds a layer of everyday life to the scene. The image lacks specific details that would pinpoint a location or event, but it does convey a sense of shared experience and cold-weather preparedness.",
-   "A dense throng of people, all enveloped in heavy, layered clothing that suggests a chilly atmosphere or a specific cultural or festive occasion. The crowd is tightly packed together, with individuals standing shoulder to shoulder. Their attire is predominantly dark, with many individuals wearing coats, scarves, hats, and gloves. The clothing appears thick and warm, indicative of winter wear. Some individuals are holding cameras or smartphones, poised to capture the moment. The crowd's faces are mostly obscured by their clothing, but a few people are smiling or looking in different directions. The setting seems to be outdoors, possibly on a public square or a street where a gathering or event is taking place. There are no discernible features in the background, focusing all attention on the sea of people. The image has a sense of unity and shared experience among the individuals present.",
-   "A large crowd of people is gathered, all dressed in heavy clothing that suggests a cold or chilly environment. Many individuals are wearing jackets or coats in dark or muted colors, such as black, gray, and navy blue. Some people are wearing hats or beanies to keep warm. A variety of scarves and gloves are also being worn. The crowd appears to be posing for a camera, with some individuals smiling or making gestures. The people are standing close to one another, indicating a sense of camaraderie or shared experience. The overall atmosphere seems to be one of a group enjoying a shared moment, despite the cold weather. There are no visible signs or landmarks in the image, making it difficult to determine the exact location or context. The background is not clearly visible, focusing the attention on the people in heavy clothing. The lighting appears to be natural, suggesting that the photo was taken outdoors during the daytime. The image captures a sense of unity and shared experience among the group.",
-   "Upon careful examination of the described image, a large crowd is visibly present, all members uniformly clad in heavy clothing. The ensemble appears to consist primarily of oversized coats in various muted hues such as grey, blue, and brown. These garments feature thick fabric and numerous fastenings like buttons and zippers. Underneath this outer layer, individuals in the crowd are mostly wearing warm base layers which appear to consist of long-sleeved shirts or sweaters. These base layers come in a variety of colors, such as white, light grey, and pastel blue. The heavy clothing is completed with knee-high boots in earthy tones like tan and dark brown. Upon closer inspection, the crowd seems to have a mix of genders and ages. Some individuals wear accessories such as scarves and gloves. In the foreground, a few people are holding cameras or smartphones, capturing this moment. The setting appears to be outdoors during daylight, with shadows indicating a relatively overcast sky. No visible decorations or special effects are apparent in this image.",
-   "A large gathering of individuals is discernible, all uniformly adorned in thick, warm clothing. The attire appears to consist mostly of heavy coats, jackets, long pants, gloves, and hats, designed to provide substantial insulation and protection from a cold environment. The clothing is in a variety of colors and patterns, but the dominant hues are muted, likely for practical reasons related to visibility in a potentially snowy or foggy setting. Each person seems to wear boots or sturdy footwear suitable for traversing snow or uneven terrain. The individuals are positioned in a manner commonly associated with posed photographs; they are standing relatively close to one another to fill the available space within a frame. Some are slightly turned toward one another, possibly engaging in conversation while aware of being photographed. Their postures are mostly relaxed but attentive, with a few individuals tilting their heads or slightly raising their shoulders in response to the camera. A few individuals in the foreground are partially obscured by those standing directly behind them. Several people are holding items commonly associated with a cold, outdoor setting: they are carrying or have with them backpacks, gloves, and possibly additional layers or accessories. These items are secured in various ways: some are placed on the ground beside their owners, while others are draped over shoulders or slung over shoulders. There is no apparent movement amongst the crowd; they are all focused on or aware of the camera capturing this moment. The setting appears to be outdoors, indicated by the presence of a natural light source that casts soft shadows and illuminates the scene evenly. The ground is not clearly visible, but its texture or material cannot be determined from this vantage point. The overall atmosphere is one of camaraderie and shared experience, as if this group has congregated for a specific purpose or event in a chilly environment. There are no visible signs of modern technology or contemporary features; this gathering seems to be taking place in a setting where such technology would either be impractical or not yet available."
+   "The image appears to depict a serene outdoor setting where a woman is comfortably lounging. Here is a detailed description of the scene: A woman with blonde hair is situated in an outdoor environment. She is reclining on a blue pillow situated on a table. Her posture suggests a relaxed and leisurely demeanor. She is wearing a blue outfit that seems to be a coordinated set, possibly a dress or a top and bottom ensemble. The blue color of her outfit contrasts nicely with her lighter hair, creating a visually appealing color palette. The table appears to be made of a dark material, likely wood or metal, serving as a base for the blue pillow. It is positioned in a way that suggests it is an outdoor furniture piece, possibly a bistro set or a similar kind commonly found in cafes or patios. The setting seems to be in a relaxed, casual environment, ideal for someone to unwind and enjoy some leisure time. In terms of additional details not explicitly stated in the caption, it can be inferred that the time of day is likely daytime due to the natural lighting. The outdoor setting could be a backyard, a caf\u00e9 patio, or a park. There are no other people or animals visible in the image, reinforcing the sense of solitude. The background is not clearly defined but seems to be open and airy, contributing to the overall relaxed and peaceful atmosphere. The woman appears to be in a posture that could indicate she is reading a book, working on a laptop, or simply enjoying a moment of relaxation. Her face is not clearly visible, adding a layer of mystery to her identity. The image exudes a sense of tranquility and personal space.",
+   "A woman with long, straight, blonde hair is comfortably reclining on a floor pillow situated at a wooden outdoor table. She is dressed in a blue outfit that contrasts with her hair. Her right arm is stretched out, resting on the table's edge, while her left arm is bent at the elbow with her hand supporting her head. Her legs are extended forward, with her feet slightly apart, and she appears to be in a relaxed posture. The table is made of wood with a natural finish. It's situated on a pavement or patio with a pattern of rectangular tiles. In the background, there are hints of greenery and possibly a blurred view of a fence or wall. The overall setting suggests a warm, outdoor environment.",
+   "A slender, young woman with shoulder-length blonde hair is seen in this image. She is dressed in a modern-looking blue outfit consisting of a fitted top and pants. The woman is comfortably reclined on a rectangular floor pillow with cushions at a table situated outside. The table appears to be made of a dark material. It seems to be situated in a public place or a cafe as the surrounding area is not very discernible. It is daytime and appears to be clear weather. The woman seems to be in a relaxed posture. She is looking out towards her left. Her face is partially hidden by her hair. It is hard to discern any further details such as her facial features or her expression. There are no other individuals in this image. There are no discernible brands or logos. It appears to be a candid moment. There are no animals or significant objects in this image. It seems to be a snapshot taken in a moment of leisure. It seems to be a casual setting. It seems to be a portrait from a distance. It seems to be taken in a relaxed setting. It seems to be taken in a public place. It seems to be a candid moment.",
+   "A serene outdoor setting unfolds, bathed in natural light. At the heart of this tranquil scene is a woman with luscious, sunlit blonde hair. She is seated comfortably on a generously sized, plush floor pillow, which appears to be covered in a soft fabric. Her attire is a stylish blue ensemble, possibly tailored to perfection. This outfit is composed of a form-fitting top with a delicate, intricate pattern on its fabric, and matching pants. The top gently rises to her midsection, revealing a hint of her waist. Her blue pants are neatly tucked into her shoes. The woman is positioned in a relaxed posture. Her legs are partially extended forward on the floor, while her back is inclined slightly backward. Her right arm is bent at the elbow and rests gently on her knee. Her left arm is extended along the side of her body. She is looking directly at the camera with a calm gaze. In this setting, she is situated in a small area surrounded by a few chairs. The chairs closest to her appear to be part of an outdoor table set. The table is partially obscured by a white umbrella, providing partial shade. The umbrella is attached to a sturdy wooden base. The wooden base appears to be made of light-colored wood. It is partially hidden by a white tablecloth. The table seems to be made of dark wood. It rests on a metal base. It is partially obscured by a few chairs. The chairs are evenly spaced around this table. They seem to be made of wood. They are partially obscured by this table. In this setting, a small round table is invitingly situated in this outdoor setting. It is partially obscured by this table. The outdoor setting exudes a refined elegance. It is adorned with a well-manicured lawn. It is partially obscured by this table. There is a tree beside this setting. It is partially hidden by this table. It seems to be a deciduous tree.",
+   "A standing woman in a vibrant blue outfit is comfortably reclining on a soft floor pillow. The setting appears to be outdoors; this is confirmed by a table in the background. It seems this woman is enjoying a tranquil moment, possibly during a break or leisure time. Her outfit is not just any attire; it is a modern, stylish ensemble combining pastel hues and subtle patterns. It is a chic combination of fabric textures. Her long, wavy hair is gently blowing in a soft breeze. It is apparent that this woman is in a relaxed position. She is not in a rush; there is no sense of urgency. It seems she is taking this time to unwind. It is not a busy place; this serene atmosphere is perhaps why she chose to spend this time here. It is her own private sanctuary. It seems this outdoor setting is perfect for this woman. It provides her a sense of calm. It seems this woman has a natural affinity for this place; she appears to belong here. It seems this place has been her haven for a long time. It seems this woman is not here for any reason; this is simply where she chose to be. It seems this place is her own personal escape. It seems this place has been a source of comfort for this woman. It seems this place offers a sense of peace. It seems this place offers this woman a respite. It seems this place is where this woman can let her hair down.",
+   "A slim woman with pale blonde hair is seated on a rectangular floor pillow at an outside table. She is dressed in a blue outfit consisting of a fitted top and comfortable pants. The woman appears relaxed; she is leaning back slightly on the pillow with her legs gently bent out to the side. Her arms are adorned with simple bracelets and her eyes are closed in a serene manner. On one side of the table, a clear glass of water is placed. The setting seems to be during daylight; it is not nighttime. The outdoor table has a smooth, wooden surface. It's a calm scene with no other people present. The surroundings are not clearly visible in this image.",
+   "The image depicts a woman with blonde hair, dressed in a blue outfit that appears to be a modern, casual ensemble. She is reclined on a rectangular, flat pillow situated outdoors. The woman is in a relaxed position, her body angled slightly on the pillow with her head resting on her left arm. Her right arm is bent at the elbow and her hand is not visible in this position. She seems to be in a peaceful, solitary moment. The setting is not fully clear from this image but appears to be a public space, possibly a caf\u00e9 or a patio area, as there seems to be a table in the foreground. The woman is not interacting with any other individuals or objects in this scene.",
+   "A serene outdoor setting unfolds before the viewer, where a woman with blonde hair is comfortably reclining on a floor pillow positioned at a small table. The woman is dressed in a striking blue outfit, which contrasts beautifully with the natural surroundings. She appears relaxed, her posture casual, as if enjoying a quiet moment of leisure. The table beside her is adorned with a few items, including a half-full glass of what appears to be a refreshing beverage, possibly iced tea or lemonade. A closed book or a notebook lies on the table, suggesting a moment of reading or reflection. The table itself is situated on a patio or deck, with a wooden floor and a railing in the background. The railing is partially obscured by lush green foliage, adding a sense of enclosure and tranquility to the setting. To the right, a large umbrella with a striped pattern provides shade, its vibrant colors adding a playful touch to the scene. In the corner of her lap, a small, fluffy cat is curled up in sleep. The overall atmosphere is one of peaceful solitude, inviting the viewer to imagine themselves in this moment of calm.",
+   "A serene outdoor setting unfolds, centering on a backlit blond woman positioned comfortably on a floor pillow. She is situated at an outdoor table, inviting yet empty in this moment. Her blue outfit distinguishes her in a relaxed posture. The table is draped with a white tablecloth. It sits on a patio lit by natural light. It is daytime. Trees stand in gentle silhouette in the background. The woman's hair dances in a soft, wavy cascade. It is highlighted by sunlight. It shines on her face. The table is adorned with delicate details. The chairs are made of rattan. It is surrounded by flowers. It is a warm atmosphere. It is peaceful. It is inviting. It is a peaceful atmosphere.",
+   "A serene outdoor setting unfolds before our eyes. At the center of this tranquil scene is a woman with auburn hair. She is comfortably reclined on a floor pillow positioned at a small table. The woman's attire is striking, with a fitted blue top that accentuates her figure. The color of her top is a deep, vibrant blue. She pairs this top with matching blue pants. Her hair is auburn in color and falls in loose waves over her shoulders. Her face, relaxed and peaceful, is turned slightly towards us as if inviting a quiet conversation. At her feet, a pair of black flip-flops is partially hidden by the pillow. The flip-flops appear new and in perfect condition. The table is a small, round wicker table. Its surface is adorned with a tranquil blue vase. The vase stands out against a backdrop of lush green grass. It is flanked by a delicate white rose in a vase. A pink rose lies on the table. The woman seems to be enjoying her solitude. Her posture is relaxed yet attentive. Her gaze is soft, and her face is calm. There is a sense of peace and tranquility to this scene. All details in this image are imbued with a sense of serenity. There is no presence of others or additional objects. It's a moment captured in time, where nature and solitude come together. The colors in this image are vibrant. The blue of the woman's outfit contrasts beautifully with her auburn hair. Her black flip-flops add a subtle contrast. The white and pink hues of the flowers provide a delicate counterpoint. The blue vase and the small wicker table are in harmony with her outfit. The verdant grass under her feet complements everything. The setting is peaceful and inviting. It seems to invite a moment of respite. You can almost hear the soft rustle of the grass. The image is a snapshot of tranquility. It is a moment frozen in time. It is a testament to the beauty of solitude. It is a reminder that sometimes all we need is a quiet moment to recharge. It is a snapshot of serenity. It is a moment of peace. It is a moment to cherish. It is a moment to pause. It is a moment to reflect. It is a moment to enjoy. It is a moment to be grateful. It is a moment to be happy. It is a moment to be alive. It is a moment to be present. It is a moment to be in the present."
   ],
   "marks": [
+   [
+    [
+     0,
+     91
+    ],
+    [
+     92,
+     200
+    ],
+    [
+     647,
+     795
+    ],
+    [
+     1067,
+     1132
+    ]
+   ],
+   [
+    [
+     0,
+     119
+    ],
+    [
+     472,
+     545
+    ],
+    [
+     546,
+     640
+    ],
+    [
+     641,
+     698
+    ]
+   ],
+   [
+    [
+     164,
+     270
+    ],
+    [
+     320,
+     420
+    ]
+   ],
+   [
+    [
+     0,
+     58
+    ],
+    [
+     961,
+     1029
+    ],
+    [
+     1492,
+     1576
+    ],
+    [
+     1617,
+     1663
+    ],
+    [
+     1664,
+     1705
+    ],
+    [
+     1746,
+     1782
+    ],
+    [
+     1821,
+     1853
+    ]
+   ],
+   [
+    [
+     91,
+     174
+    ],
+    [
+     762,
+     818
+    ]
+   ],
    [
     [
      0,
      95
     ],
     [
-     954,
-     1031
+     438,
+     499
+    ],
+    [
+     500,
+     547
     ]
    ],
    [
     [
-     907,
-     1040
+     115,
+     179
+    ],
+    [
+     423,
+     584
     ]
    ],
    [
     [
      0,
-     82
+     154
     ],
     [
-     293,
-     390
+     592,
+     693
+    ]
+   ],
+   [
+    [
+     0,
+     110
     ],
     [
-     826,
-     928
-    ]
-   ],
-   [
-    [
-     409,
-     490
-    ]
-   ],
-   [
-    [
-     682,
-     782
-    ]
-   ],
-   [
-    [
-     1475,
-     1643
-    ]
-   ],
-   [
-    [
-     600,
-     717
-    ]
-   ],
-   [
-    [
-     837,
-     937
-    ]
-   ],
-   [
-    [
-     892,
-     994
-    ]
-   ],
-   [
-    [
-     1097,
-     1281
+     111,
+     182
     ],
     [
-     1557,
-     1702
+     284,
+     324
+    ],
+    [
+     340,
+     391
+    ],
+    [
+     441,
+     471
+    ]
+   ],
+   [
+    [
+     0,
+     49
+    ],
+    [
+     757,
+     816
+    ],
+    [
+     1570,
+     1626
+    ],
+    [
+     1705,
+     1754
     ]
    ]
   ]
@@ -3059,9 +3032,9 @@
   "group": "g2",
   "bias": "weather",
   "modality": "image",
-  "caption_id": "13896",
-  "caption": "A man wearing a white shirt , with his back to the viewer , goes past three people going in the opposite direction .",
-  "question": "What is the weather like in the scene, if discernible?",
+  "caption_id": "38816",
+  "caption": "A child wearing a brown coat , red hat and snow boots on top of a snow pile near a tree on the corner of a street intersection .",
+  "question": "What is the weather condition in the scene?",
   "refer_to": "the scene",
   "classes": [
    "sunny",
@@ -3071,16 +3044,16 @@
    "foggy"
   ],
   "outputs": [
-   "img/s2/13896/0.jpg",
-   "img/s2/13896/1.jpg",
-   "img/s2/13896/2.jpg",
-   "img/s2/13896/3.jpg",
-   "img/s2/13896/4.jpg",
-   "img/s2/13896/5.jpg",
-   "img/s2/13896/6.jpg",
-   "img/s2/13896/7.jpg",
-   "img/s2/13896/8.jpg",
-   "img/s2/13896/9.jpg"
+   "img/s2/38816/0.jpg",
+   "img/s2/38816/1.jpg",
+   "img/s2/38816/2.jpg",
+   "img/s2/38816/3.jpg",
+   "img/s2/38816/4.jpg",
+   "img/s2/38816/5.jpg",
+   "img/s2/38816/6.jpg",
+   "img/s2/38816/7.jpg",
+   "img/s2/38816/8.jpg",
+   "img/s2/38816/9.jpg"
   ]
  },
  {
@@ -3088,9 +3061,9 @@
   "group": "g2",
   "bias": "weather",
   "modality": "text",
-  "caption_id": "13896",
-  "caption": "A man wearing a white shirt , with his back to the viewer , goes past three people going in the opposite direction .",
-  "question": "What is the weather like in the scene, if discernible?",
+  "caption_id": "38816",
+  "caption": "A child wearing a brown coat , red hat and snow boots on top of a snow pile near a tree on the corner of a street intersection .",
+  "question": "What is the weather condition in the scene?",
   "refer_to": "the scene",
   "classes": [
    "sunny",
@@ -3100,52 +3073,314 @@
    "foggy"
   ],
   "outputs": [
-   "A man dressed in a crisp white shirt is captured in mid-stride, his body oriented away from the viewer. His posture suggests a casual pace. Directly in front of him, at a slight distance and on a parallel path, three individuals are seen. They are all moving in the opposite direction to the man in the white shirt. Each person appears to be engaged in their own activity, with no interaction apparent between them. The scene is likely set in a public outdoor area, possibly a park or a pedestrian zone in a city, where people frequently pass by each other. The individuals all appear to be adults, though specific details about their appearances or attire are not discernible. There are no notable objects or additional context within this immediate environment. The man in the white shirt and the three others are the focal points, with no other distinguishing features or activities taking place. The overall atmosphere seems calm and ordinary, with no signs of urgency or excitement.",
-   "In a seemingly ordinary setting, a man is depicted from behind, his frame occupying the left side of the frame. He is dressed in a crisp white shirt, which contrasts subtly with the muted tones of the surrounding environment. His back is slightly leaned forward as he moves forward, creating a sense of forward motion. The man's hair is short and dark, falling evenly along the nape of his neck. His posture is relaxed but purposeful. To his right, three individuals are seen from a side angle, all moving in the opposite direction. Their faces are not visible as they are turned away from the camera. The first person in this trio is closest to the man and appears to be wearing a dark-colored top. The second person is slightly further back, dressed in a lighter shade. The third person is at the end of this line, partially obscured by the others but distinguishable by their attire. The setting appears to be a public space, likely on a pedestrian path or a street. The ground is not clearly visible, but it seems to be a flat, possibly paved surface. The background is indistinct and does not provide specific details about the location. It is a soft blend of colors and shapes, with no focal points or features that stand out. This gives the impression of a busy but impersonal environment. The lighting is diffuse and even, casting no harsh shadows and contributing to the overall sense of neutrality. The atmosphere is calm and unremarkable, with no signs of urgency or excitement. The image captures a moment in everyday life, focusing on the subtle details of human movement and attire.",
-   "In a setting that appears to be a public space, such as a caf\u00e9 or a coffee shop, a man is seen from behind. He is dressed in a white shirt, which contrasts with his dark pants. His posture is upright and confident as he walks past three individuals who are moving in the opposite direction. The three people he is passing by are casually dressed, with two of them in light-colored tops and one in a darker shirt. Their faces are turned away from the camera, making it difficult to discern their expressions. The man in white is holding a small object in his right hand, possibly a phone or a keychain. The background is slightly blurred, focusing the viewer's attention on the man and the three individuals. The lighting in the image is soft, creating a calm and relaxed atmosphere. There are no discernible texts or distinctive features in the background that provide additional context to the scene. The relative positions of the individuals suggest a moment of everyday life, with the man in white seemingly unaware of or uninterested in his surroundings.",
-   "The image captures a moment on a street. It features a man in a white shirt who is turned away from the viewer. His back is facing forward, suggesting he is moving in the opposite direction of the viewer. He appears to be in mid-stride, with his feet positioned to continue forward. In front of the man, three individuals are visible. They are positioned on the sidewalk or a path directly in front of the man. All three people are traveling in the same direction as the man, but their path seems to be diverging from his. Their exact actions are unclear due to their stance and position, but they appear to be engaged in some form of activity\u2014perhaps walking or standing. The setting appears to be outdoors, likely a public place such as a park or a pedestrian area. There is no clear indication of the location or environment beyond this general assumption. The man and the three individuals are the primary focus of the image, with no other significant details or objects present to provide additional context. The lighting and shadows suggest it might be daytime. Overall, the image conveys a sense of movement and direction, with the man seemingly at an intersection or divergence point on a path or street. The three individuals in front of him add a layer of complexity to the scene, suggesting a shared public space where people are moving in different directions.",
-   "A man with short, neatly groomed hair is captured mid-stride as he moves past three individuals. His back is turned to the viewer, providing a clear view of his attire. He is dressed in a crisp, white shirt that appears to be slightly oversized, with the sleeves rolled up to mid-forearm. The fabric of the shirt appears smooth and well-maintained. The man's posture is relaxed but purposeful; his feet are positioned in a way that shows he is in motion, perhaps a casual walk. The light hits his shirt in such a way that it creates a slight sheen in certain areas, indicating it might be made of a silky or slightly shiny material. His pants are not entirely visible, but they appear to be dark in color, possibly black or navy blue, creating a subtle contrast with his white shirt. The man's hair is short and appears to be well-groomed; it's not perfectly neat but doesn't seem unkempt either. It's a light color, possibly blonde or light brown, though it's difficult to discern precisely due to the back view and lighting. There is no visible jewelry or accessories on him. The man is moving past three individuals who are going in the opposite direction. These individuals are partially seen, with only their backs and portions of their heads in view. They are spaced out in a line, maintaining a respectful distance from each other. All three appear to be engaged in similar activities, possibly walking or moving in a line as well. Their attire varies, but it's not clear enough to describe in detail. The one closest to the man seems to have a lighter color, which might be a light blue or grey. The middle person's attire appears to be a darker shade, possibly black or dark grey. The last person in line seems to have a lighter color as well, but it's not as distinct as the first. The setting and additional details are not described to avoid assumption. The image seems to be taken in an urban or public setting, but no concrete features or details are provided. The lighting is natural, casting soft shadows and creating a calm atmosphere. There is no text or distinguishable branding visible in the image. The overall mood conveyed is one of everyday life, capturing a moment of movement and interaction between strangers.",
-   "In this image, we see a man from behind as he strolls forward. He is dressed in a crisp white shirt that contrasts with the muted surroundings. His hair is short and appears to be dark. The man's posture is relaxed, and he seems to be in mid-stride. Behind him, three people are seen. One appears to be an adult male, possibly in his mid-thirties, with a beard. Another seems to be a woman in her mid-twenties with long brown hair. The third person is a child, perhaps a young boy in his early teens. All three are heading in the opposite direction of the man, creating a sense of motion and divergence. The setting appears to be a quiet street or pathway during what seems to be the daytime. The exact details of the backdrop are indistinct, focusing the viewer's attention on the subjects. The lighting is even, suggesting overcast conditions or diffused sunlight. The image captures a moment of everyday life, with a sense of casualness and normalcy.",
-   "A man, his back turned to the viewer, is captured mid-stride as he moves past three individuals who are heading in the exact opposite direction. The man is dressed in a crisp white shirt, which contrasts subtly with his dark pants. His hair is short and neatly styled, with a slight part that catches the light. The three people he's passing have their backs to us as well, so we see them from a rear-facing perspective. They are spaced evenly, creating a balanced visual line. All three are also dressed in dark clothing; their exact details are indistinct due to their orientation away from the camera. They appear to be engaged in their own activities, with no discernible interaction between them or with the man. The setting seems urban, with a smooth pavement underfoot and a faint reflection of the scene on a nearby surface. The lighting suggests it might be midday, with natural light evenly illuminating the scene. There is no discernible background or additional context to provide further details about this moment.",
-   "A man in a crisp, white shirt is walking past three individuals who are moving in the opposite direction. The man appears to be in mid-stride, his right foot forward as he navigates past them. The white shirt fits him well, its fabric smooth and unblemished, reflecting a sense of cleanliness and formality. The three individuals passing in the opposite direction are slightly blurred, creating a sense of motion and giving a sense of their speed. They are all wearing dark clothing: one person is in a black jacket, another in a gray hoodie, and the third in a black shirt. Their faces are indistinct, their expressions hidden as they move past. The backdrop is indistinct and out of focus, perhaps a busy street or a public place, where the details are not important. The man's hair is short and neatly cut, and his posture is direct and confident. The image captures a moment of everyday life, a fleeting interaction between two groups of people moving in opposite directions.",
-   "A man is captured from the waist up as he walks past three others. He is dressed in a white shirt, which is slightly wrinkled, and appears to have a relaxed posture. His hair is short and dark, and he has a beard. The man's back is turned to the viewer, giving a sense of motion and direction as he moves forward. In his hands, he is holding a small, rectangular object that appears to be a phone. The object is black and seems to be a modern smartphone. The man's pace is moderate, and he seems to be in a hurry as he moves past the others. The three individuals with whom he is interacting are all in the opposite direction. They appear to be engaged in a conversation or are focused on something in front of them. Each person is dressed in casual clothing; one seems to be wearing a dark jacket, another is in a light-colored top, and the third is wearing a dark top. All three individuals have their backs turned to the man as well, and they appear to be aware of his passing. The setting seems to be an urban environment, possibly a busy street or a public area with people moving about. There is no clear indication of the time of day or specific location, but the lighting suggests it could be daytime. The background is slightly blurred, focusing the viewer's attention on the individuals and their actions. The overall atmosphere is one of everyday life and the constant movement of people in a shared public space.",
-   "The image shows a man standing with his back to the viewer. He is wearing a white shirt. The man appears to be in a public space, possibly a street or a plaza. The background is slightly blurred, suggesting motion or a shallow depth of field. Directly in front of the man is a sidewalk or a path. To the man's right, three people are walking past. They are moving in the opposite direction to the man. All three individuals are dressed in dark clothing. The person closest to the man is slightly ahead and to his left. The second person is further back, to the right of the first person. The third person is even further back, closer to the center of the frame. All three people appear to be engaged in their own activities as they walk. The environment suggests a busy urban setting."
+   "The image portrays a young child positioned prominently on a mound of snow, situated at a street corner. The child is adorned in a warm brown coat, a vibrant red hat, and sturdy snow boots. The coat appears to be thick and insulated, providing ample protection against the cold. The red hat is snugly fit on the child's head, with a slight tilt suggesting a playful or casual stance. The boots are practical and robust, likely designed for navigating through snow and slush. The mound of snow on which the child is perched is uneven, with a gently sloping base and a slightly raised peak where the child is situated. It is situated in a way that one side slopes downward towards a tree trunk positioned just to the left of the frame. The tree trunk is partially covered in snow, indicating recent or ongoing snowfall. In the background, there is a glimpse of a street intersection. A crosswalk is partially visible, with its white stripes standing out against the darker pavement. The intersection is not fully in view, as the image is cropped just above the base of the mound of snow. This framing places the child in a central and focal position within the image, drawing the viewer's attention directly to them. The lighting in the image is natural and seems to be diffused, possibly by overcast skies or snowfall. This diffused light casts soft shadows and gives the image a gentle, serene quality.",
+   "A young child is standing on a mound of fresh snow. The child is dressed warmly in a brown coat that appears to be made of a soft fabric, possibly wool or a wool blend. The coat is buttoned up to the neck, providing protection from the cold. On the child's head, there's a red hat that seems to be made of wool or a similar warm material. It's a classic design with a soft brim and appears to have a small pom-pom on top. The child's feet are clad in vibrant red snow boots, which are waterproof and likely insulated to keep feet warm in the snow. The boots are sturdy and have a slight heel. The child is positioned on a corner of a street intersection, with a tree trunk partially visible to the left of them. The tree appears to be covered in a layer of snow. In the background, parts of a street can be seen, including a sidewalk and some blurred details of a nearby building. The snow pile the child is standing on is uneven, with some fluffier areas and others that appear more compact. The overall scene suggests a chilly but playful winter day.",
+   "A young child is situated on a snow-covered mound at a street corner, surrounded by a quiet winter atmosphere. The child is dressed warmly for the cold weather, sporting a brown coat that appears thick and slightly oversized, providing a cozy fit. On their head, they wear a vibrant red hat with a pom-pom on top, which contrasts sharply with the white snow. Their lower half is adorned with red and black snow boots that stand out against the pristine white backdrop. The child's position on the snow pile gives a sense of playfulness and joy, as if they are enjoying a moment of exploration. Behind the child, a tree with bare branches rises, its dark silhouette adding depth to the scene. The tree trunk is partially covered in snow, indicating that it has been accumulating. The intersection of the two streets is clearly visible in the background, with no other people or vehicles in sight, giving the impression of a serene, almost deserted urban landscape. The snow appears untouched except for where the child is playing, with a smooth, even layer covering the ground. The overall mood is one of peaceful solitude, with the child as the sole focus of this winter tableau.",
+   "A young child is positioned on a mound of snow, which appears to be slightly uneven and compacted beneath them. The child is dressed in a mid-length brown coat that appears to be made of a thick material suitable for cold weather. The red hat is snugly fitted on their head, covering their ears and secured by a small strap that loops around the back of their neck. The child's hands are not visible; possibly tucked inside their coat pockets or covered by another layer. They are wearing snow boots that are knee-high and appear to be made of a rubber-like material with a textured pattern on the soles for traction. The snow pile they are standing on is surrounded by a thin layer of snow that lightly blankets the surrounding area, indicating it has been a while since this area was cleared of snow. In front of them, a tree trunk rises from the snow, its base partially obscured by the mound of snow. The tree seems to be relatively young or of a smaller species, as its trunk is slender. The tree's branches extend upwards, out of frame, and appear to be laden with snow. To the right of the tree, a street corner is partially visible. The curb is slightly elevated, and a crosswalk can be seen in the distance, though it's not in focus. The ground around the child and tree appears to be relatively flat, with no visible obstructions. The overall setting suggests a quiet residential area or a less-traveled street corner. The child seems to be enjoying their time in the snow, perhaps pretending to climb or play on the snow mound. The lighting suggests it's daytime, with natural sunlight illuminating the scene. There are no other people or moving vehicles in sight, adding to the serene atmosphere. The child's position on the snow mound and the untouched snow around them indicate they might have been playing here for a while. There are no signs of recent human activity, such as footprints or tire tracks, reinforcing the sense of tranquility.",
+   "A young child stands atop a mound of snow on a street corner, surrounded by a wintery landscape. The child is bundled up against the cold in a brown coat that appears warm and comfortable. On their head, they wear a vibrant red hat, a pop of color against the white snow. Their feet are snug in a pair of red-and-white striped snow boots, perfectly suited for playing in the snow. In the background, a tree with bare branches stands, its dark silhouette stark against the overcast sky. The setting suggests a quiet, snowy day in a residential area. The child's posture, with a slight bend forward as if preparing to jump off the pile or perhaps\u521a\u5806\u597d\u96ea\u7403\uff0c\u4f20\u8fbe\u51fa\u4e00\u79cd\u7eaf\u771f\u548c\u5feb\u4e50\u7684\u611f\u89c9. The image captures a simple yet joyful moment in a child's life, surrounded by the beauty of a winter wonderland.",
+   "A young child is standing at the corner of a street intersection. The child is dressed warmly for a snowy day, wearing a brown coat that appears soft and slightly oversized, providing a cozy fit. On their head, they have a red hat with a thick brim and fluffy pom-poms on top, adding a playful touch to their outfit. The child's footwear consists of vibrant red snow boots, which stand out vividly against the white snow. The boots are thick and appear to be designed for warmth and comfort in the cold weather. Beneath this attire, a pair of black pants is slightly visible. In the background, a tree with bare branches rises above the child, its bark textured and partially covered in a dusting of snow. The snow pile on which the child is standing is uneven, with clumps of snow sticking together. The child's posture is relaxed, with their hands in their pockets. The street intersection appears quiet and empty, with no vehicles or other people in sight. The snow on the ground is pristine and untouched, indicating that it has been relatively calm and peaceful. The lighting is natural, likely from overcast skies, casting a soft and diffuse light over the scene. The overall atmosphere is serene and quiet, capturing a moment of stillness in a snowy setting.",
+   "In a serene, wintry setting, a young child is poised on a mound of snow, enjoying the crisp air and soft snowfall. The child is dressed warmly, sporting a brown coat that appears to be made of a thick, fuzzy material perfect for the chilly weather. The coat is adorned with a hood that provides additional warmth, and its buttons are slightly oversized, adding a playful touch to the outfit. On the child's head is a vibrant red hat, snugly fitted with an ear-flap design that can be pulled over the ears to shield against the cold. The child's face is turned slightly to the side, showing a hint of a smile as they look out towards the street. Their eyes sparkle with excitement or perhaps a sense of adventure. The child's feet are snugly tucked into a pair of snow boots. The boots are knee-high, with a thick rubber sole that seems perfectly suited for navigating the snowy terrain. They feature loops and straps across the top, fastened with buckles that jingle softly with each step. The child's hands are hidden from view in their pockets or perhaps tucked into their coat sleeves. Standing sentinel in the background is a tree, its branches laden with a layer of fresh snow. The tree's trunk is partially obscured by the snowpile but stands as a testament to the frosty weather. It's situated on the corner of a quiet street intersection, where the road meets in a gentle curve. The intersection appears to be devoid of traffic, creating a peaceful backdrop for the child's snowy adventure. The sky above is a pale, almost pastel blue, with wisps of clouds drifting lazily across it. The light seems soft and diffused, casting a gentle glow over the entire scene. It's a moment frozen in time, capturing the simple joy of a child's winter exploration.",
+   "A young child is situated on a mound of snow, surrounded by a wintry setting. The child is dressed in warm clothing to counteract the cold temperatures. They are wearing a brown coat that appears thick, likely made from a durable material to withstand the elements. On their head is a vibrant red hat, which contrasts sharply with the white snow. The child's attire is completed with a pair of snow boots, their color not explicitly stated but implied to be functional for snowy conditions. The snow pile they are on appears to have been formed by a recent snowfall. The background reveals a tree standing adjacent to the snow mound. It is a leafless tree, its branches stark against the sky, suggesting it is winter. This tree is located at the corner of a street intersection. The intersection itself is not clearly visible, but the presence of this corner setting suggests an urban or suburban environment. There are no other people or moving objects in the image, creating a quiet, isolated scene. The child seems to be in a moment of stillness, perhaps enjoying the sensation of sitting on the snow or observing their surroundings. No additional context is provided by the image, leaving the child's actions and thoughts open to interpretation.",
+   "A young child is standing on a mound of pristine white snow. The child is dressed warmly for the cold weather, sporting a brown coat that appears oversized, perhaps for coziness. The coat is thick and seems to provide excellent insulation against the winter chill. On their head, they wear a red hat, its vibrant color contrasting sharply with the snow and any nearby surroundings. The hat is snugly fitted, covering their ears and providing protection from the biting cold. On their feet, they are wearing red snow boots. The boots are sturdy and knee-high, perfect for trudging through deep snow without getting their feet wet. The child's position is slightly elevated on this snow mound, giving a clear view of their attire and surroundings. Behind them, partially obscured by their back, is the trunk of a tree. It's a tree that seems to belong to a residential area, its bark smooth and perhaps covered in a thin layer of frost. Beyond the tree and the mound of snow, there is a street intersection. The street is not visible in its entirety but appears to be clear of snow, showing a contrast between the untouched winter landscape where the child is and the maintained urban environment. It's a quiet corner, perhaps early in the morning or on a day with low traffic. The child's posture is relaxed, suggesting they are not in a hurry but perhaps enjoying a moment of play or simply observing the world covered in snow. There's a sense of peace and stillness in this scene, as if time has momentarily paused in this winter wonderland. There are no other individuals or moving objects in sight, reinforcing the quiet and serene atmosphere. The details \u2013 from the child's boots to the untouched snow \u2013 all contribute to capturing a moment frozen in time, a snapshot of a childhood experience in a winter landscape.",
+   "A young child is poised on a mound of snow, surrounded by a quiet winter atmosphere. The child is adorned in a warm brown coat that appears soft and well-insulated to combat the cold. On the child's head is a vibrant red hat, making a bold contrast with the muted tones of the snow and surroundings. The footwear is equally distinctive, with red snow boots providing both warmth and protection from the wintry ground. The snow pile is substantial enough to stand on comfortably, indicating recent snowfall. In the backdrop, a tree with bare branches suggests it is either late winter or early spring. The tree stands at the corner of a street intersection, with the edges of the road and possibly a sidewalk partially visible. The intersection is devoid of any other people or vehicles, adding to the serene and isolated feel of the scene. The child seems poised for a moment of play or rest, capturing a snapshot of childhood delight in a wintery setting. The natural light suggests it might be midday or early afternoon."
   ],
   "marks": [
-   [],
-   [],
-   [],
    [
     [
-     768,
-     859
-    ]
-   ],
-   [
-    [
-     97,
-     168
+     0,
+     104
     ],
     [
-     1439,
-     1508
+     105,
+     189
+    ],
+    [
+     384,
+     474
+    ],
+    [
+     475,
+     616
+    ],
+    [
+     734,
+     817
+    ],
+    [
+     981,
+     1085
+    ],
+    [
+     1215,
+     1317
     ]
    ],
    [
     [
-     792,
-     866
+     0,
+     51
+    ],
+    [
+     422,
+     547
+    ],
+    [
+     712,
+     762
+    ],
+    [
+     881,
+     992
     ]
    ],
-   [],
-   [],
    [
     [
-     1093,
-     1209
+     0,
+     110
+    ],
+    [
+     111,
+     247
+    ],
+    [
+     248,
+     358
+    ],
+    [
+     359,
+     468
+    ],
+    [
+     469,
+     593
+    ],
+    [
+     692,
+     778
+    ],
+    [
+     964,
+     1076
     ]
    ],
-   []
+   [
+    [
+     0,
+     111
+    ],
+    [
+     112,
+     230
+    ],
+    [
+     472,
+     617
+    ],
+    [
+     618,
+     802
+    ],
+    [
+     803,
+     904
+    ],
+    [
+     993,
+     1076
+    ],
+    [
+     1429,
+     1538
+    ],
+    [
+     1539,
+     1620
+    ],
+    [
+     1709,
+     1838
+    ]
+   ],
+   [
+    [
+     0,
+     96
+    ],
+    [
+     189,
+     271
+    ],
+    [
+     272,
+     380
+    ],
+    [
+     381,
+     485
+    ],
+    [
+     486,
+     548
+    ]
+   ],
+   [
+    [
+     66,
+     195
+    ],
+    [
+     317,
+     421
+    ],
+    [
+     422,
+     511
+    ],
+    [
+     576,
+     705
+    ],
+    [
+     706,
+     800
+    ],
+    [
+     960,
+     1067
+    ],
+    [
+     1068,
+     1169
+    ],
+    [
+     1170,
+     1265
+    ]
+   ],
+   [
+    [
+     0,
+     114
+    ],
+    [
+     115,
+     248
+    ],
+    [
+     713,
+     774
+    ],
+    [
+     775,
+     886
+    ],
+    [
+     1089,
+     1182
+    ],
+    [
+     1183,
+     1286
+    ],
+    [
+     1387,
+     1498
+    ],
+    [
+     1499,
+     1591
+    ]
+   ],
+   [
+    [
+     0,
+     77
+    ],
+    [
+     266,
+     346
+    ],
+    [
+     347,
+     490
+    ],
+    [
+     491,
+     566
+    ],
+    [
+     567,
+     633
+    ],
+    [
+     634,
+     717
+    ],
+    [
+     1002,
+     1136
+    ]
+   ],
+   [
+    [
+     0,
+     60
+    ],
+    [
+     61,
+     178
+    ],
+    [
+     265,
+     381
+    ],
+    [
+     475,
+     522
+    ],
+    [
+     523,
+     629
+    ],
+    [
+     630,
+     745
+    ],
+    [
+     935,
+     1005
+    ],
+    [
+     1006,
+     1195
+    ],
+    [
+     1276,
+     1427
+    ],
+    [
+     1647,
+     1820
+    ]
+   ],
+   [
+    [
+     0,
+     84
+    ],
+    [
+     184,
+     299
+    ],
+    [
+     300,
+     417
+    ],
+    [
+     418,
+     506
+    ]
+   ]
   ]
  },
  {
@@ -4214,10 +4449,10 @@
   "group": "g2",
   "bias": "clothing color",
   "modality": "image",
-  "caption_id": "4451",
-  "caption": "A priest carrying a small blue bag walking down the street talking on a cellphone .",
-  "question": "What is the color of the clothing worn by the priest?",
-  "refer_to": "the priest",
+  "caption_id": "730",
+  "caption": "A cooking event where young kids are cooking with eggs and brightly colored ingredients while people are watching .",
+  "question": "What is the color scheme of the clothing worn by the kids?",
+  "refer_to": "the kids",
   "classes": [
    "red",
    "blue",
@@ -4227,16 +4462,16 @@
    "white"
   ],
   "outputs": [
-   "img/s2/4451/0.jpg",
-   "img/s2/4451/1.jpg",
-   "img/s2/4451/2.jpg",
-   "img/s2/4451/3.jpg",
-   "img/s2/4451/4.jpg",
-   "img/s2/4451/5.jpg",
-   "img/s2/4451/6.jpg",
-   "img/s2/4451/7.jpg",
-   "img/s2/4451/8.jpg",
-   "img/s2/4451/9.jpg"
+   "img/s2/730/0.jpg",
+   "img/s2/730/1.jpg",
+   "img/s2/730/2.jpg",
+   "img/s2/730/3.jpg",
+   "img/s2/730/4.jpg",
+   "img/s2/730/5.jpg",
+   "img/s2/730/6.jpg",
+   "img/s2/730/7.jpg",
+   "img/s2/730/8.jpg",
+   "img/s2/730/9.jpg"
   ]
  },
  {
@@ -4244,10 +4479,10 @@
   "group": "g2",
   "bias": "clothing color",
   "modality": "text",
-  "caption_id": "4451",
-  "caption": "A priest carrying a small blue bag walking down the street talking on a cellphone .",
-  "question": "What is the color of the clothing worn by the priest?",
-  "refer_to": "the priest",
+  "caption_id": "730",
+  "caption": "A cooking event where young kids are cooking with eggs and brightly colored ingredients while people are watching .",
+  "question": "What is the color scheme of the clothing worn by the kids?",
+  "refer_to": "the kids",
   "classes": [
    "red",
    "blue",
@@ -4257,90 +4492,44 @@
    "white"
   ],
   "outputs": [
-   "A priest is seen carrying a small blue bag over one shoulder as they navigate the street. The priest is mid-stride, their legs positioned evenly as they move forward. In their left hand, they are holding a cellphone to their right ear, engaged in a conversation. The blue bag appears to be made of a durable material, possibly canvas or nylon. It is relatively small, about one-quarter to one-third of a standard backpack in size. There are no visible straps or buckles, and it appears to be a simple drawstring or zippered opening. The priest is dressed in a long black robe with a white cross-shaped collar on their neck. The robe is unblemished and perfectly tailored. The collar is prominently displayed, indicating the religious nature of their attire. The priest is not interacting with any other individuals or objects in the immediate vicinity. The street appears to be relatively empty, with no visible pedestrians or moving vehicles. The sidewalk is concrete and appears to be well-maintained. The setting seems urban, with buildings in the background. The lighting suggests it could be mid-morning or mid-afternoon, as there is plenty of natural light. The priest's expression is not discernible due to the angle and distance from which the image is taken. The overall atmosphere is calm and ordinary.",
-   "A middle-aged priest with a bald head and a white collar is seen carrying a small blue bag over his right shoulder. The bag appears to be made of fabric and is slightly bulging. The priest is dressed in a traditional white cassock with a long black stole draped over his shoulders. His left hand is holding a silver flip cellphone to his ear. He is strolling down a paved street lined with modern buildings on both sides. The sidewalk is relatively empty, with no other pedestrians in sight. Directly in front of him is a woman crossing the street. Her hair is tied back in a ponytail and she is wearing a dark jacket. The priest continues to talk on his phone, seemingly unperturbed by her proximity. The street is bathed in soft daylight, and shadows cast by the buildings add a slight depth to the scene. There are no cars or other vehicles in this frame. The overall atmosphere is calm and urban.",
-   "A middle-aged priest, dressed in traditional black cassock and red mozzetta, is seen strolling down a sunlit city street. The priest's black cassock is adorned with a white surplice draped over his shoulders, and he wears a red biretta on his head. His hands are occupied with a small blue bag in one hand and a cellphone to his ear in the other. The blue bag appears to be made of canvas or a similar material and is unbranded. The priest's stride is confident and purposeful, suggesting he is engaged in a conversation. The street is flanked by modern urban elements: on one side, there is a row of contemporary apartment buildings with large windows and balconies. On the other side, a tree-lined sidewalk provides a contrast to the urban environment. The sunlight casts long shadows and bathes the scene in a warm glow, highlighting the details of his attire and the textures of the buildings and sidewalk. In the background, a few pedestrians and a parked car are visible, adding to the everyday, bustling atmosphere of the city. The priest's expression is partially obscured by his glasses, but his posture and the setting convey a sense of normalcy and tranquility amidst the urban hustle.",
-   "A middle-aged priest with a dignified demeanor, dressed in traditional ecclesiastical attire complete with a white cassock, black stole, and red mozzetta over his right shoulder. The priest is holding a small blue bag in his left hand, which appears to be made of fabric, possibly canvas. In his right hand, he is holding a cellphone to his ear. As he talks on the cellphone, his face shows a focused and slightly serious expression. He is walking on a paved street that appears to be in an urban setting. The street is relatively calm, with no visible pedestrians or vehicles in the immediate vicinity. The sidewalk is clean and appears to be made of concrete or stone pavers. On one side of the street, there is a building partially visible in the background that seems to have a light-colored facade, possibly white or beige. The building's architecture suggests it could be a residential or commercial structure. The priest's footsteps are measured and deliberate as he walks forward. The lighting in the image suggests it is daytime, with sunlight casting soft shadows on the ground. The shadows indicate that the sun is at a moderate height, possibly mid-morning or mid-afternoon. There is no discernible weather condition from this angle, but the overall atmosphere seems clear and calm. The priest's attire and demeanor exude a sense of solemnity and responsibility.",
-   "As I envision this scene, I picture a solemn figure of a priest in traditional vestments. His white cassock is meticulously pressed, adorned with gold embroidery that catches the light. Over his shoulders hangs a vibrant red stole, symbolizing his spiritual leadership. The priest's bald head is bald as a baby's, with a few wispy gray hairs around the temples. In his right hand, he carries a small blue bag, its fabric appearing soft and slightly wrinkled, suggesting it's made of canvas or a similar material. The bag is unobtrusive, perhaps holding a few personal items or a small Bible. In his left hand, he holds a cellphone to his ear. The phone is a modern model, its sleek design contrasting with the traditional attire. The priest's posture is upright, exuding a sense of calmness and authority. His stride is measured and confident as he walks down the street. The background is blurred, but hints of urban architecture are discernible. There are no immediate surroundings or people to distract from this singular figure. The overall mood is one of quiet dignity and modernity coexisting.",
-   "A well-dressed priest, identifiable by his traditional clerical attire including a cassock and a stole draped over his shoulder, is seen mid-stride on a sidewalk. His right hand securely holds a small blue canvas bag, which appears to be made of durable fabric. In his left hand, he is engaged in a conversation on a cellular phone, holding it to his left ear. The setting is an urban street lined with various storefronts, including a coffee shop identifiable by its white awning and a sign with a coffee cup symbol. The sidewalk is relatively clean, with a few pedestrians visible in the background. The priest's gait is confident, and he seems to be in mid-conversation, suggesting a sense of urgency or importance in his call. The blue bag is slightly slung over his shoulder, its strap secured over his left arm. The street appears to be in daylight, with shadows indicating a clear sky. No other details are discernible.",
-   "Here is the description of the image based on the caption provided: As I walk down the quiet street, a figure catches my eye. It's a priest, distinguishable by his traditional vestments and solemn demeanor. He's in mid-stride, his feet evenly spaced on the pavement. In his right hand, he carries a small blue bag, its vibrant color a stark contrast to his dark robe. His left hand is occupied, holding a cellphone to his ear. His gaze is focused on the conversation, not on the surroundings. The priest's face is a picture of concentration, his brow slightly furrowed as he listens. The blue bag appears to be made of a sturdy material, perhaps canvas or leather. It's small enough to be comfortably carried in one hand, but its exact contents remain a mystery. The priest's lips move in sync with the sounds coming from the phone, though I can't make out the details of the conversation. The street around him is relatively empty, with only a few cars parked on the side. A tree with lush green leaves provides a touch of nature in the urban setting. The building on the corner features a sign with a classic design, its details a bit blurred but giving a sense of a quaint, possibly historic, setting. The overall atmosphere is calm and serene, with a hint of modernity from the priest's use of a cellphone. As he continues his journey, his footsteps remain steady, blending seamlessly into the quiet rhythm of the street. There is no one else in sight, creating a sense of solitude. The priest seems engrossed in his call, oblivious to his surroundings. The image captures a moment of quiet reflection amidst the humdrum of daily life.",
-   "A middle-aged priest with a bald head and glasses is seen strolling down a quiet suburban street. He is dressed in a traditional cassock with a white collar over a cassock and black belt. On his left shoulder, he carries a small, blue canvas bag. The bag appears to be made of a durable material with reinforced seams and has a simple design. In his right hand, he holds a modern smartphone. The priest is engaged in a conversation, holding the phone to his right ear. He seems to be walking with a purpose but not in a rush. The street is relatively empty, with a few parked cars on the side and houses with well-maintained lawns. The houses have a mix of architectural styles, featuring gabled roofs and a variety of siding. The houses are spaced out, giving the street a calm and peaceful atmosphere. There are no other people or moving vehicles in sight. The sky is overcast, suggesting it might be a cloudy day. The overall mood conveyed by the image is one of quiet solitude and focused communication.",
-   "A male priest, identifiable by his cassock and stole, is seen walking down a wide street. He is holding a small, rectangular blue bag in his left hand. In his right hand, he is engaged in a phone conversation, holding a smartphone close to his right ear. The priest appears focused on his call. The street is relatively empty, with no other pedestrians or vehicles in sight. On either side of the street, there are rows of modern buildings with large glass windows reflecting the blue sky. The buildings are evenly spaced and appear to be part of a commercial or urban area. The sky is clear and blue, with no clouds visible. The overall atmosphere appears calm and orderly. The priest is walking towards the camera, maintaining a steady pace. There are no other people or distractions in the immediate vicinity.",
-   "A priest, dressed in his traditional cassock with a white stole draped over his shoulder and a bald head, is seen mid-stride as he walks down a street. The cassock is dark in color, likely black, with a subtle sheen that suggests fine fabric. The white stole contrasts sharply with the cassock. He is holding a small blue bag in his right hand, which appears to be made of a sturdy material, perhaps canvas, and is slightly bulging, indicating it may contain a few items. In his left hand, he is holding a cellphone to his ear, engaged in a conversation. The priest's expression is not clearly visible due to the angle and distance of the shot. The street is lined with trees that provide a canopy of leaves overhead, casting dappled shadows on the pavement. The sidewalk is not visible, suggesting the priest is walking directly on the road. There are no other people in sight. The background is slightly blurred due to a shallow depth of field, focusing attention on the priest. There are no discernible vehicles or buildings in this close-up view. The light seems to be natural daylight, possibly midday given the brightness. There are no distinct features or signs that would indicate a specific location or time period. The overall atmosphere is serene."
+   "In this lively cooking event, a group of young kids are engaged in a culinary activity that appears to be both educational and entertaining. They are gathered around a table laden with various cooking utensils and ingredients, creating a vibrant and colorful atmosphere. Each child is actively participating, with their attention focused on their individual stations. They are surrounded by adults who are standing and observing the proceedings, ready to offer guidance or assistance as needed. The table is a hub of activity, with different stations dedicated to various aspects of cooking. One area features a person cracking eggs into a bowl, with a measuring cup nearby to ensure precision. The eggs are being used in a dish that seems to require careful preparation. Adjacent to this, another station is dedicated to a colorful array of ingredients. Brightly colored vegetables such as red bell peppers, green zucchini, and yellow bell peppers are scattered across a cutting board. The children are in the process of chopping these vegetables with a variety of kitchen knives, their movements quick and careful. A third station appears to be focused on mixing a batter or dough. In this area, a stand mixer is in use, its bowl filled with a mixture that the children are observing intently. Nearby, a bowl of flour and a measuring spoon suggest that this mixture is being prepared with precision. The children are learning about different cooking techniques and measurements as they work. The room is filled with a sense of community and learning. The adults watching over the children are engaged, some taking notes, others capturing the moment with cameras. The walls are adorned with posters and educational materials related to cooking and nutrition, reinforcing the educational aspect of the event. The atmosphere is one of excitement and curiosity, as the children are discovering the joy of cooking and the importance of healthy eating. Overall, this image captures a moment of learning, creativity, and community engagement, as young minds are immersed in the fascinating world of cooking.",
+   "A lively cooking event unfolds, capturing the vibrant energy of young kids immersed in culinary creativity. The room is bathed in soft, inviting light that illuminates the colorful scene before it. At the forefront, a group of young children, ranging from 6 to 10 years old, are engaged in the simple yet fascinating process of cooking with eggs. The children's expressions are a mix of concentration and joy as they handle various kitchen tools and ingredients with an air of curiosity and enthusiasm. Their small hands grasp colorful spatulas, whisks, and bowls adorned in hues of red, blue, yellow, and orange. The kitchen counter is a canvas of culinary exploration, scattered with an assortment of eggs in varying states of preparation. Some eggs are cracked open, revealing their golden yolks glistening in the light, while others remain unbroken, waiting to be transformed. Brightly colored ingredients \u2013 shades of orange from carrots, green from bell peppers, and purple from grapes \u2013 are scattered across the counter and in the children's hands. The children's attire is casual and comfortable, reflecting the informal yet engaging atmosphere of the event. To one side of the room, a semi-circle of adults observes the scene, their faces reflecting a range of emotions: pride in the children's efforts, amusement at their antics, and a shared eagerness to learn alongside the young cooks. The adults are seated comfortably, some holding cameras or smartphones to capture this precious moment. The walls of the room are adorned with vibrant artwork and motivational posters that encourage creativity and the joy of cooking. The air is filled with the sweet aroma of eggs and spices, mingling with the chatter and laughter of the participants. This image encapsulates a moment of learning, playfulness, and community \u2013 a snapshot of childhood discovery in a world of culinary exploration.",
+   "A lively cooking event unfolds before us, radiating with the vibrant energy of young minds engaged in culinary creativity. At the heart of this bustling scene are children, their faces alight with concentration and excitement. They are actively participating in a cooking activity, their small hands carefully cracking eggs and mixing ingredients in colorful bowls. The eggs are a striking yellow, a universal symbol of this humble yet vital component in many recipes. Surrounding the children are various bowls adorned in a kaleidoscope of colors \u2013 red, green, blue, and yellow \u2013 each one holding a different ingredient. The arrangement of these bowls is meticulously organized, allowing easy access for the young chefs. The children's tools of choice are simple yet effective: wooden spoons and spatulas. They are diligently mixing, scooping, and folding their ingredients with precision and enthusiasm. To one side, a line of spectators waits in anticipation. They are a diverse group, their faces ranging from attentive smiles to curious expressions. Their proximity to the cooking area suggests they are engaged in learning, observing the culinary skills of the young participants. The spectators are a silent observer, not interfering with the cooking process but rather providing a supportive backdrop to this educational experience. The atmosphere is filled with the sounds of laughter, the gentle clinking of utensils on bowls, and the occasional murmur of encouragement or question. This cooking event is not just about the food; it's about the experience of learning, creating, and sharing. It's a snapshot of a moment where young minds are encouraged to explore their creativity in a setting that is both fun and educational. Every detail, from the colorful bowls to the focused expressions of the children and the anticipatory presence of the spectators, contributes to a vivid portrayal of this unique culinary experience.",
+   "In this lively cooking event, a room is filled with the vibrant energy of young children engaged in a cooking activity. The children, ranging in age from approximately 6 to 12 years old, are scattered throughout the room, their faces radiating excitement and concentration as they handle their culinary tasks. They are positioned on low tables or stools, their small hands moving deftly with the mixing bowls and utensils before them. Each child seems dedicated to their station, with some focusing on cracking eggs into their bowls while others add a splash of color with vibrant ingredients such as red peppers, green herbs, and yellow lemons. The room is bathed in natural light streaming in from a nearby window, enhancing the warm and inviting atmosphere. Onlookers, likely parents or event staff, sit in a circle or in front of the children, their eyes fixed on the young participants. They appear engaged and supportive, some possibly taking notes or capturing the moment on their phones. The room is adorned with colorful decorations that match the theme of the cooking event, with balloons and streamers adding to the festive spirit. The walls are adorned with posters and educational materials related to cooking and nutrition, subtly reinforcing the educational aspect of the event. The air is filled with the tantalizing aromas of cooking eggs and fresh ingredients, further enhancing the sensory experience for both the children and the spectators. In the background, a small sign indicates that this event is part of a larger educational series on healthy eating, underscoring the importance of this activity in teaching young minds about food preparation and wellness. This image captures a moment of learning, creativity, and community, where the joy of cooking and the thrill of discovery come to life.",
+   "The image depicts a vibrant and lively cooking event where young children are actively engaged in preparing a dish involving eggs and brightly colored ingredients. The setting appears to be a well-lit room, possibly a kitchen or a community center, with a group of young children standing around a table or countertop. Each child is focused on their own cooking station, equipped with small bowls, spoons, and various cooking utensils. The children are dressed in casual clothing suitable for a cooking activity. Some are wearing aprons, which suggests a designated area for cooking to protect their clothes. The table in front of them is covered with a colorful tablecloth or a mat, adding to the festive atmosphere. Various ingredients are spread out on the table, including eggs, bowls with different colored ingredients (such as red, green, and yellow), and possibly some spices or seasonings. Adults, likely parents or teachers, are standing around the children, observing their cooking process. These adults are dressed in more casual attire and some are also wearing aprons, indicating their involvement in supervising or assisting the children. Some adults are standing close to the children, ready to offer guidance or support as needed. Others are standing a bit further back, watching the children's efforts. The background of the image shows a room with a homely feel, possibly adorned with decorations or posters related to cooking or children's activities. There is a sense of collaboration and learning in this environment, as the children and adults work together in a shared cooking experience. The overall atmosphere is one of excitement and engagement, with the young children immersed in their cooking tasks and the adults providing a supportive environment. The room is filled with a positive energy, promoting hands-on learning and creativity in cooking. The presence of bright colors from the ingredients and the casual, friendly setting further enhances the sense of a fun and educational cooking event.",
+   "In this vibrant cooking event, young children are engaged in a hands-on cooking activity. They are surrounded by a lively atmosphere where they are actively involved in preparing dishes using eggs and an assortment of brightly colored ingredients. The children appear focused and enthusiastic as they mix, stir, and handle the various components of their culinary creations. In their small kitchen area, they have a plethora of colorful bowls and utensils. There are bowls filled with red bell peppers, yellow corn kernels, and green leafy vegetables. The children are using their creativity to add these colorful elements to their dishes. Nearby, a mixture of eggs in different stages of preparation can be seen. One child is cracking eggs into a bowl while another is whisking them. The children's excitement is palpable as they interact with one another and their surroundings. Onlookers are seated in a semi-circle, observing the children's efforts. They are seated on chairs arranged around a dining table, where they can clearly see the cooking area. The spectators appear engaged and supportive, some capturing the moment on their smartphones or cameras. The room is well-lit with natural light streaming in from a nearby window, which casts a warm glow on the scene. The walls are adorned with colorful decorations and posters related to food and cooking, creating an inviting and educational environment. The floor is covered with a light-colored carpet, and a few scattered pieces of paper can be seen, perhaps recipes or checklists for the children to follow. In the background, a small kitchen counter with various cooking tools and ingredients is visible. The event seems to be a part of a culinary workshop or a cooking class designed for children, aimed at teaching them not only how to cook but also to enjoy and appreciate the process of creating delicious meals from scratch. The atmosphere is one of learning, fun, and creativity, perfectly capturing the spirit of culinary education for young minds.",
+   "In this vibrant cooking event, a group of young children are engaged in a culinary adventure with eggs and a variety of brightly colored ingredients. The children are gathered around a kitchen counter or table, each equipped with their own small bowls and utensils. They are in the midst of preparing a dish that involves whisking eggs and mixing in different ingredients. The table is adorned with colorful bowls filled with ingredients such as chopped tomatoes, red bell peppers, diced onions, and green herbs. The children's expressions are focused and enthusiastic as they carefully measure out their ingredients and mix them together. Surrounding the children are a few adults who are attentively watching their progress. These adults are standing at a respectful distance, allowing the children to work independently while still being available to assist if needed. The room is well-lit, creating a warm and inviting atmosphere. The walls are decorated with cheerful posters and colorful utensils hanging neatly on a pegboard. In the background, there is a small kitchen area with a stove and various cooking tools. A few other participants can be seen observing from the periphery of the room. The overall mood of the event is one of excitement and learning, as the children are encouraged to explore their creativity in cooking while enjoying the company of their peers and the supervision of the adults.",
+   "In a vibrant, well-lit kitchen, a lively cooking event unfolds. At the center of the scene, a group of young kids are engaged in a culinary adventure. They are stationed at individual workstations, each with a clear plastic tablecloth adorned with a playful, colorful pattern. The kids are focused, their faces illuminated by the soft glow of overhead lights as they handle various cooking utensils and ingredients. In front of them, a selection of cooking tools is meticulously arranged. Wooden spatulas and metal whisks are arrayed alongside bowls holding a variety of colorful ingredients. One bowl is filled with bright yellow eggs, their shells cracked open and poised for cooking. Nearby, a bowl brims with chopped red bell peppers, their vibrant hue reflecting in the kitchen lighting. Another bowl contains a mix of green herbs and spices, possibly used to add flavor to their dishes. The kid closest to this bowl appears particularly engaged, meticulously mixing its contents with a wooden spoon. Scattered around the kitchen are onlookers, a mix of adults and other children. They stand at a respectful distance from the cooking stations, their attention fixed on the young chefs. Their faces are a blend of curiosity and encouragement. Some adults are holding cameras or phones, capturing the moment, while others simply watch with smiles. In the background, a whiteboard with a 'cooking class' sign drawn on it is mounted on the wall. To the right of the kitchen is a large counter with various appliances and a sink. It is tidy, with a few kitchen utensils hanging on the wall above. The kitchen itself is modern, with stainless steel appliances and a tiled floor. The walls are painted in a soft beige color. Throughout the scene, there is a palpable sense of excitement and learning. The young kids' concentration is palpable as they navigate their culinary tasks, while the onlookers' presence creates a supportive, educational atmosphere. The room is filled with the hum of activity and the occasional murmur of encouragement, creating a dynamic and engaging environment.",
+   "In this lively and colorful cooking event for young children, a group of young kids are actively engaged in a cooking activity. The kids are standing in a kitchen or a dedicated cooking area, surrounded by various cooking utensils and ingredients. They are holding colorful bowls and mixing ingredients with enthusiasm. The ingredients they are using are brightly colored, with vibrant hues of red, yellow, and green visible in their bowls. The kids are interacting with each other and the adults around them, showing a sense of camaraderie and shared learning experience. Adults, who appear to be parents or teachers, are standing around the children, observing their cooking efforts. Some adults are holding cameras or smartphones, capturing the moment, while others are providing guidance and encouragement. The adults are dressed in casual attire, blending in with the informal and educational atmosphere of the event. The kitchen is well-lit, with natural light streaming in from a nearby window, enhancing the vibrant colors of the ingredients and the children's clothing. On the walls, there are posters or educational materials related to cooking or nutrition, indicating that this event is not only about cooking but also about teaching young children about healthy eating habits. The overall atmosphere is one of joy, learning, and community. The children's expressions are focused and engaged, reflecting their enjoyment and concentration on the task at hand. The event seems to be a positive experience for both the children and the adults present, fostering a love for cooking and healthy eating from an early age.",
+   "In this vibrant cooking event, a lively group of young children takes center stage as they expertly handle eggs and mix in brightly colored ingredients. The children are split evenly between those actively cooking and those observing. The cooking area is a hive of activity; on one side, children in bright yellow and orange aprons stand poised to crack eggs into bowls. They are surrounded by trays laden with a variety of colorful ingredients such as red bell peppers, green leafy vegetables, and purple potatoes. On a nearby table, another group of children in red and blue aprons are diligently mixing these ingredients in bowls. The mixing bowls are filled with a rainbow assortment of ingredients \u2013 red tomatoes, yellow corn kernels, and blueberries. The children's faces are a picture of concentration and excitement as they carefully combine these colorful elements. As they work, a small crowd of onlookers surrounds the cooking area. Behind them, a backdrop of cheerful cartoon characters and a banner reading \"Let's Cook Fun!\" set a festive tone. The spectators include parents and other children in colorful clothing. They watch with anticipation and smiles as the young chefs create their culinary masterpieces. The atmosphere is energetic and joyful, capturing the spirit of fun and learning in this cooking event."
   ],
   "marks": [
-   [
-    [
-     533,
-     623
-    ]
-   ],
-   [
-    [
-     0,
-     115
-    ],
-    [
-     178,
-     281
-    ],
-    [
-     549,
-     618
-    ]
-   ],
-   [
-    [
-     0,
-     121
-    ],
-    [
-     122,
-     248
-    ]
-   ],
-   [
-    [
-     0,
-     178
-    ]
-   ],
-   [
-    [
-     90,
-     185
-    ],
-    [
-     186,
-     269
-    ]
-   ],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
    [],
    [
     [
-     267,
-     367
+     923,
+     1078
     ]
    ],
    [
     [
-     98,
-     187
-    ]
-   ],
-   [],
-   [
-    [
-     0,
-     151
+     235,
+     370
     ],
     [
-     152,
-     242
+     516,
+     633
     ],
     [
-     243,
-     294
+     1058,
+     1129
     ]
    ]
   ]
