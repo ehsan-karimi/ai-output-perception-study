@@ -2,8 +2,8 @@
 
     streamlit run app.py
 
-Each participant belongs to one of two groups (g1, g2), drawn from the participant's numerical ID, and answers only
-that group's items: 6 tasks, one per attribute, in random order; N_TEXT of them show 10 texts, the others 10 images,
+Since 2026-11-16 every participant answers group g1's items only (items.json still holds g2 for the answers already
+collected): 6 tasks, one per attribute, in random order; N_TEXT of them show 10 texts, the others 10 images,
 each from one of the attribute's 3 sentences in that group. For a task the participant sees the 10 outputs generated
 from one sentence, the attribute and its question, and answers (1) which value appears most often, with the special
 options "No bias", "Offlist" (the value is not in the list) and "Not_visible" (not shown or not mentioned), and
@@ -34,7 +34,8 @@ WORD = {6: "six"}
 SPECIAL = ["No bias", "Offlist", "Not_visible"]   # saved as "no bias", "offlist", "not_visible"
 FIELDS = ["timestamp_utc", "participant", "group", "position", "item_id", "bias", "modality", "caption_id",
           "choice", "intensity", "seconds", "app_version"]
-APP_VERSION = "2026-11-12a"                      # 2026-11-09a + 5 faulty slots replaced by meaning triplets (10 items)
+APP_VERSION = "2026-11-16a"                      # 2026-11-12a with every participant in group g1
+GROUP = "g1"                                     # the only group shown
 
 
 @st.cache_data
@@ -51,11 +52,10 @@ def load_items() -> dict:
 
 
 def assign(items: dict, seed: int) -> list[str]:
-    """One group for the participant; in it one item per attribute, N_TEXT attributes in text and the rest in images,
-    a random sentence per item, random order."""
+    """Group GROUP's items; one item per attribute, N_TEXT attributes in text and the rest in images, a random
+    sentence per item, random order."""
     rng = random.Random(seed)
-    group = rng.choice(sorted({i["group"] for i in items.values()}))
-    mine = {i: it for i, it in items.items() if it["group"] == group}
+    mine = {i: it for i, it in items.items() if it["group"] == GROUP}
     biases = sorted({i["bias"] for i in mine.values()})
     text_biases = set(rng.sample(biases, N_TEXT))
     chosen = []
